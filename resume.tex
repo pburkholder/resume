@@ -16,16 +16,19 @@
 \newcommand{\lineunder}{\vspace*{-8pt} \\ \hspace*{-18pt} \hrulefill \\}
 \newcommand{\header}[1]{{\hspace*{-15pt}\vspace*{6pt} \textsc{#1}} \vspace*{-6pt} \lineunder}
 \newcommand{\employer}[3]{{ \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }}
+\newcommand{\skillset}[1]{{ \underline{\textbf{\emph{#1}}}\\  }}
+\newcommand{\skill}[2]{{$\bullet$ #1 -- #2}}
 \newcommand{\contact}[3]{
-\vspace*{-8pt}
-\begin{center}
-{\LARGE \scshape {#1}}\\
-#2 \lineunder 
-#3
-\end{center}
-\vspace*{-8pt}
+    \vspace*{-8pt}
+    \begin{center}
+        {\LARGE \scshape {#1}}\\
+        #2 \lineunder 
+        #3
+    \end{center}
+    \vspace*{-8pt}
 }
-\newenvironment{achievements}{\begin{list}{$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}\end{list}}
+%\newenvironment{achievements}{\begin{list}{$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}\end{list}}
+\newenvironment{achievements}{\begin{list}{\topsep 0pt \itemsep -2pt}} {\vspace*{4pt}\end{list}}
 \newcommand{\schoolwithcourses}[4]{
  \textbf{#1} #2 $\bullet$ #3\\ 
 #4 $\bullet$  Selected Coursework:\\
@@ -48,8 +51,7 @@
 {+1-240-696-2545 $\bullet$ pb@pburkholder.com  $\bullet$ http://www.pburkholder.com/}
 
 \header{Work History}
-\employer{AARP (with Inscope International)}{2008-2011}{Senior Web
-Engineer/Team Lead}
+\employer{AARP (with Inscope International)}{2008-2011}{Senior Web Engineer/Team Lead}
 	\begin{achievements}
     \item Operated www.aarp.org and affiliated websites with greater than 99.97\% availability.
 	\item Established configuration mangement with Puppet across 44 RHEL 4/5 servers in 3 environments
@@ -162,16 +164,12 @@ Artificial Intelligence $\cdot$ Network Security $\cdot$ Databases}
 
 
 \header{Certifications}
-%\begin{achievements}
-ISC2 System Security Certified Professional (SSCP), 2002 (lapsed)
-
-SANS Institute GIAC Security Essentials Certification (GSEC), 2002
-
-Usenix/SAGE cSAGE II, 2001
-
-Microsoft MCP, 2001
-
-%\end{achievements}
+\begin{achievements}
+\item ISC2 System Security Certified Professional (SSCP), 2002 (lapsed)
+\item SANS Institute GIAC Security Essentials Certification (GSEC), 2002
+\item Usenix/SAGE cSAGE II, 2001
+\item Microsoft MCP, 2001
+\end{achievements}
 
 
 \header{Education and Honors}
@@ -193,83 +191,83 @@ System Administrators Guild (SAGE), USENIX, League of Professional System Admini
 
 \header{Skills}
 Operating Systems and Platforms: 
-   Linux 2.4/2.6 (RHEL, Debian, SUSE)        Expert-Advanced (10 yrs)
-   Sun Solaris (1.x - 2.9)                   Advanced (10 yrs)
-   MacOSX                                    Advanced (5 yrs)
-   Windows 95-XP/2003                        Intermediate (10 yrs)
-   F5 BigIP LTM/GTM                          Advanced (2 yrs)
-   OpenBSD/FreeBSD                           Beginner (1 yr)
-   VmWare (Server and Workstation)           Intermediate (6 yrs)
-   Xen, EC2                                  Beginner (1 yr)
+   Linux 2.4/2.6 (RHEL, Debian, SUSE)        Expert-Advanced (10 years)
+   Sun Solaris (1.x - 2.9)                   Advanced (10 years)
+   MacOSX                                    Advanced (5 years)
+   Windows 95-XP/2003                        Intermediate (10 years)
+   F5 BigIP LTM/GTM                          Advanced (2 years)
+   OpenBSD/FreeBSD                           Beginner (1 year)
+   VmWare (Server and Workstation)           Intermediate (6 years)
+   Xen, EC2                                  Beginner (1 year)
     
 Programming and Scripting Languages: 
-   Unix command line                         Expert (15 yrs)
-   Shell script (Bourne shell, csh, bash)    Expert (10+ yrs)
-   Perl                                      Advanced (10 yrs)
-   Ruby                                      Intermediate (3 yrs)
-   m4, python, C, Java, tcl/tk               Intermediate (approx. 2 yrs each)
+   Unix command line                         Expert (15 years)
+   Shell script (Bourne shell, csh, bash)    Expert (10+ years)
+   Perl                                      Advanced (10 years)
+   Ruby                                      Intermediate (3 years)
+   m4, python, C, Java, tcl/tk               Intermediate (approx. 2 years each)
 
 Infrastructure: 
-   DNS, DHCP, NIS, NFS, Samba/CIFS/SMB       Advanced (10 yrs each)
-   OpenLDAP                                  Advanced (4 yrs)
-   NetSNMP                                   Intermediate (2 yrs)
-   Kerberos, Active Directory                Intermediate (4 yrs)
-   RAID and LVM                              Intermediate (4 yrs)
-   Relational Databases: MySQL, PostgreSQL   Intermediate (4 yrs, 2 yrs)
-   DRBD, Heartbeat, High-availability        Intermediate (2 yrs)
-   Amanda, Tape Backup                       Advanced (5+ yrs)
-   LPR/LPD, LPRng, CUPS                      Advanced (5+ yrs each)
-   VOIP: Asterisk, IAX, SIP                  Intermediate (1 yr)
+   DNS, DHCP, NIS, NFS, Samba/CIFS/SMB       Advanced (10 years each)
+   OpenLDAP                                  Advanced (4 years)
+   NetSNMP                                   Intermediate (2 years)
+   Kerberos, Active Directory                Intermediate (4 years)
+   RAID and LVM                              Intermediate (4 years)
+   Relational Databases: MySQL, PostgreSQL   Intermediate (4 years, 2 years)
+   DRBD, Heartbeat, High-availability        Intermediate (2 years)
+   Amanda, Tape Backup                       Advanced (5+ years)
+   LPR/LPD, LPRng, CUPS                      Advanced (5+ years each)
+   VOIP: Asterisk, IAX, SIP                  Intermediate (1 year)
    
 Web Servers, Application Servers, and Web Operations
    Apache Web Server (1.3.x, 2.0.X, 2.2.X)
-%     mod_rewrite, mod_ssl, mod_fastcgi       Expert (5 yrs)
-   JBoss 4.x                                 Intermediate (3 yrs)
+%     mod_rewrite, mod_ssl, mod_fastcgi       Expert (5 years)
+   JBoss 4.x                                 Intermediate (3 years)
    Apache Tomcat 4.x/5.x
-   JSP, Servlets, AJP                        Expert (5 yrs)
-   Zope/Plone                                Intermediate (3 yrs)
-   Limelight Deliver, Akamai EdgeSuite       Intermediate (1 yr)
-   Amazon Web Services (S3, EC2)             Beginner (1 yr)
+   JSP, Servlets, AJP                        Expert (5 years)
+   Zope/Plone                                Intermediate (3 years)
+   Limelight Deliver, Akamai EdgeSuite       Intermediate (1 year)
+   Amazon Web Services (S3, EC2)             Beginner (1 year)
 
 Web and CMS Applications
-   Day Communique 4.2, 5.2, 5.3              Advanced (2 yrs)
-   PHP (Drupal, WordPress, etc.)             Intermediate (3 yrs)
-   Ruby on Rails                             Beginner (1 yr)
-   RT3 Trouble Ticket Systems, Mason         Advanced (4 yrs)
-   JIRA tracking system                      Advanced (3 yrs)
+   Day Communique 4.2, 5.2, 5.3              Advanced (2 years)
+   PHP (Drupal, WordPress, etc.)             Intermediate (3 years)
+   Ruby on Rails                             Beginner (1 year)
+   RT3 Trouble Ticket Systems, Mason         Advanced (4 years)
+   JIRA tracking system                      Advanced (3 years)
 
 Change Management and Configuration Management: 
-   Subversion, git, CVS                      Advanced (8 yrs)
-   Make, Ant                                 Advanced (8 yrs)
-   CfEngine, Puppet                          Intermediate (3 yrs, 2 yrs)
-   Kickstart, rpmbuild                       Intermediate (2 yrs each)
+   Subversion, git, CVS                      Advanced (8 years)
+   Make, Ant                                 Advanced (8 years)
+   CfEngine, Puppet                          Intermediate (3 years, 2 years)
+   Kickstart, rpmbuild                       Intermediate (2 years each)
    
 Monitoring and Logging: 
-   Nagios/NetSaint                           Expert (6 yrs)
-   Gomez                                     Intermediate (1 yr)
-   New Relic                                 Beginner (<1 yr)
-   Jopr/Hyperic                              Beginner (1 yr)
-   Mysql Enterprise Monitor                  Intermediate (1 yr)
-   Spread/SpreadLog                          Advanced (4 yrs)
-   Syslog, Syslog-NG                         Intermediate (10 yrs, 2 yrs)
-   Splunk                                    Beginner(<1 yr)
+   Nagios/NetSaint                           Expert (6 years)
+   Gomez                                     Intermediate (1 year)
+   New Relic                                 Beginner (<1 year)
+   Jopr/Hyperic                              Beginner (1 year)
+   Mysql Enterprise Monitor                  Intermediate (1 year)
+   Spread/SpreadLog                          Advanced (4 years)
+   Syslog, Syslog-NG                         Intermediate (10 years, 2 years)
+   Splunk                                    Beginner(<1 year)
 
 Mail Services:
-   SMTP: Sendmail, Exim, Postfix             Intermediate (10 yrs, 2 yrs)
-   Listserves: Majordomo, Mailman            Intermediate (2+ yrs each)
-   IMAP/POP: UW-IMAP, Dovecot, Courier       Intermediate (2+ yrs each)
-   SpamAssassin                              Beginner (1 yr)
+   SMTP: Sendmail, Exim, Postfix             Intermediate (10 years, 2 years)
+   Listserves: Majordomo, Mailman            Intermediate (2+ years each)
+   IMAP/POP: UW-IMAP, Dovecot, Courier       Intermediate (2+ years each)
+   SpamAssassin                              Beginner (1 year)
 
-Security and Security Tools: 
-   SSH, OpenSSL                              Expert (7 yrs)
-   Tcpdump, NMap, Ethereal/Wireshark         Advanced (5 yrs)
-   PGP/GnuPGP                                Intermediate (3 yrs)
-   Nessus                                    Intermediate (3 yrs)
-   iptables, ipfilter, pf                    Intermediate (4 yrs)
-   Tripwire, snort                           Intermediate (2 yrs)
-   Computer forensics, evidence mgmt         Intermediate (2 yrs)
-   IPSec, VPN management                     Beginner (1 yr)
-%   Apache mod_security (web app firewall)    Beginner (< 1 yr)
+\skillset{Security and Security Tools}
+\skill{SSH, OpenSSL}{Expert (7 years)}
+\skill{Tcpdump, NMap, Ethereal/Wireshark}{Advanced (5 years)}
+\skill{PGP/GnuPGP}{Intermediate (3 years)}
+\skill{Nessus}{Intermediate (3 years)}
+\skill{iptables, ipfilter, pf}{Intermediate (4 years)}
+\skill{Tripwire, snort}{Intermediate (2 years)}
+\skill{Computer forensics, evidence mgmt}{Intermediate (2 years)}
+\skill{IPSec, VPN management}{Beginner (1 year)}
+\skill{Apache mod\_security (web app firewall)}{Beginner (< 1 year)}
 
 
 \end{document}
