@@ -8,22 +8,22 @@ http://www.pburkholder.com
 
 SUMMARY OF QUALIFICATIONS
 
+* Experienced manager of cohesive technical teams.  Dedicated to project management across teams of system administrators, software engineers, content developers, and end users.  Able to manage time and resources in dynamic technical environments.
+
 * Unix/Linux System Administrator with a successful record providing reliable and secure computing support.  Skilled in managing heterogeneous environments of Sun Solaris, RedHat/SUSE Linux, Windows (2000, XP, 2003) and Mac OS X systems, and in meeting custom development and production needs.
 
 * Web Administrator/Engineer providing reliable web services on the J2EE and LAMP application stacks.  Provides support throughout software development life cycle from implementation planning to deployment, including version control, configuration management, monitoring, troubleshooting, optimization and debugging.
 
-* Dedicated to project management across teams of system administrators, software engineers, content developers, and end users.  Able to self-manage time and resources in dynamic technical environments.
-
 
 PROFESSIONAL EXPERIENCE
 
-Web Strategy & Operations, AARP, Washington DC
-* SENIOR WEB ENGINEER (November 2008 - present)
--- Operated 58 web, application, database and development servers (RHEL4/5) for public sites of world's largest membership organization.  Built a comprehensive Nagios/pnp4Nagios, Mysql Monitor, and Jopr system to replace collection of cron scripts and monitor over 750 services.  Acted as MySQL DBA with master-master replication across two datacenter for social networking application with 400,000 users. With other team members ran entire J2EE stack ranging from purchase recommendations to OS install to HA/DRBD setup to application configuration to deployment coordination to data center traffic management (with F5 BigIP) to CDN coordination (Limelight) and everything in-between.
+Web Strategy & Operations, AARP, Washington DC (contracted via Inscope Internation, Reston, Virginia)
+* TEAM LEAD/SENIOR WEB ENGINEER (December 2008 - present)
+-- Operated 58 web, application, database and development servers (RHEL4/5) for public sites (www.aarp.org and related properties) of United State's largest membership organization.  Managed full stack ranging from OS install (kickstart) to HA/DRBD setup to application configuration to deployment coordination to data center traffic management (with F5 BigIP) to CDN coordination (Limelight) and everything in-between.  Deployed and operated Day Communique WCMS (4.2, 5.2, 5.3) system to serve all content for AARP.  Built a comprehensive monitoring framework with Nagios/pnp4Nagios, Mysql Monitor, New Relic and Gomez to replace collection of cron scripts and monitor over 750 services.  Initiated deployment of Puppet for configuration management and OpenLDAP for authentication and authorization.  Acted as MySQL DBA with master-master replication across two datacenter for social networking application with 400,000 users.  Operated JBossAS 4.2 to provide services to AARP members and visitors.  Coordinated technical activities of four junior system administrators.
 
-National Center for Biotechnology Information, National Institutes of Health, Bethesda, MD
-* APPLICATIONS ADMINISTRATOR (November 2007 - November 2008)
--- Co-managed over 200 web servers for the U.S. government's busiest web site using CfEngine and Subversion.  Built, configured and tuned Apache servers, deployed locally-developed applications, operated third-party applications such as Mailman, JIRA, MySQL, ProFTPd and several wiki platforms.  Worked with developers to resolve application issues.  
+National Center for Biotechnology Information, National Institutes of Health, Bethesda, MD (contracted via IS Mavens, Bethesda, MD)
+* APPLICATIONS ADMINISTRATOR (November 2007 - December 2008)
+-- Co-managed over 200 web servers for the U.S. government's busiest web site (http://ncbi.nlm.nih.gov, PubMed, MedLine) using CfEngine and Subversion.  Built, configured and tuned Apache servers, deployed locally-developed applications, operated third-party applications such as Mailman, JIRA, MySQL, ProFTPd and several wiki platforms.  Worked with developers to resolve application issues.  Wrote custom extensions for Jira in JRuby and Ruby.
 
 EchoDitto, LLC, Washington, DC
 * DIRECTOR OF SYSTEM AND NETWORK OPERATIONS (February 2007 - September 2007)
@@ -120,86 +120,88 @@ Honors: Phi Beta Kappa, University of Wisconsin Graduate School Honors Fellow, N
 
 PROFESSIONAL AFFILIATIONS
 
-
 Meeting Coordinator for DC-SAGE.  
 System Administrators Guild (SAGE), USENIX, League of Professional System Administrators (LOPSA) 
 
 
+SKILLS
 
 Operating Systems and Platforms: 
-   Linux 2.4/2.6 (RHEL, Debian, SUSE)        Expert-Advanced (10 years)
-   Sun Solaris (1.x - 2.9)                   Advanced (10 years)
-   MacOSX                                    Advanced (5 years)
-   Windows 95-XP/2003                        Intermediate (10 years)
-   OpenBSD/FreeBSD                           Beginner (1 year)
-   VmWare (Server and Workstation)           Intermediate (6 years)
-   Xen, EC2                                  Beginner (1 year)
+   Linux 2.4/2.6 (RHEL, Debian, SUSE)        Expert-Advanced (10 yrs)
+   Sun Solaris (1.x - 2.9)                   Advanced (10 yrs)
+   MacOSX                                    Advanced (5 yrs)
+   Windows 95-XP/2003                        Intermediate (10 yrs)
+   F5 BigIP LTM/GTM                          Advanced (2 yrs)
+   OpenBSD/FreeBSD                           Beginner (1 yr)
+   VmWare (Server and Workstation)           Intermediate (6 yrs)
+   Xen, EC2                                  Beginner (1 yr)
     
 Programming and Scripting Languages: 
-   Unix command line                         Expert (15 years)
-   Shell script (Bourne shell, csh, bash)    Expert (10+ years each)
-   Perl                                      Advanced (10 years)
-   Ruby                                      Intermediate (3 years)
-   m4, python, C, Java, tcl/tk               Intermediate (approx. 2 years each)
+   Unix command line                         Expert (15 yrs)
+   Shell script (Bourne shell, csh, bash)    Expert (10+ yrs)
+   Perl                                      Advanced (10 yrs)
+   Ruby                                      Intermediate (3 yrs)
+   m4, python, C, Java, tcl/tk               Intermediate (approx. 2 yrs each)
 
 Infrastructure: 
-   DNS, DHCP, NIS, NFS, Samba/CIFS/SMB       Advanced (10 years each)
-   LDAP                                      Advanced (4 years)
-   NetSNMP                                   Intermediate (2 years)
-   Kerberos, Active Directory                Intermediate (4 years)
-   RAID and LVM                              Intermediate (4 years)
-   Relational Databases: MySQL, PostgreSQL   Intermediate (4 years, 2 years)
-   DRBD, Heartbeat, High-availability        Intermediate (2 years)
-   Amanda, Tape Backup                       Advanced (5+ years)
-   LPR/LPD, LPRng, CUPS                      Advanced (5+ years each)
-   VOIP: Asterisk, IAX, SIP                  Intermediate (1 year)
-   F5 BigIP LTM/GTM                          Intermediate (1 year)
+   DNS, DHCP, NIS, NFS, Samba/CIFS/SMB       Advanced (10 yrs each)
+   OpenLDAP                                  Advanced (4 yrs)
+   NetSNMP                                   Intermediate (2 yrs)
+   Kerberos, Active Directory                Intermediate (4 yrs)
+   RAID and LVM                              Intermediate (4 yrs)
+   Relational Databases: MySQL, PostgreSQL   Intermediate (4 yrs, 2 yrs)
+   DRBD, Heartbeat, High-availability        Intermediate (2 yrs)
+   Amanda, Tape Backup                       Advanced (5+ yrs)
+   LPR/LPD, LPRng, CUPS                      Advanced (5+ yrs each)
+   VOIP: Asterisk, IAX, SIP                  Intermediate (1 yr)
    
 Web Servers, Application Servers, and Web Operations
    Apache Web Server (1.3.x, 2.0.X, 2.2.X)
-     mod_rewrite, mod_ssl, mod_fastcgi       Expert (5 years)
-   JBoss 4.x                                 Intermediate (2 years)
+     mod_rewrite, mod_ssl, mod_fastcgi       Expert (5 yrs)
+   JBoss 4.x                                 Intermediate (3 yrs)
    Apache Tomcat 4.x/5.x
-   JSP, Servlets, AJP                        Expert (5 years)
-   Zope/Plone                                Intermediate (3 years)
-   Limelight Deliver, Akamai EdgeSuite       Intermediate (1 year)
-   Amazon Web Services (S3, EC2)             Beginner (1 year)
+   JSP, Servlets, AJP                        Expert (5 yrs)
+   Zope/Plone                                Intermediate (3 yrs)
+   Limelight Deliver, Akamai EdgeSuite       Intermediate (1 yr)
+   Amazon Web Services (S3, EC2)             Beginner (1 yr)
 
 Web and CMS Applications
-   Day Communique 4.2/5.0                    Intermediate (1 year)
-   PHP (Drupal, WordPress, etc.)             Intermediate (3 years)
-   Ruby on Rails                             Beginner (1 year)
-   RT3 Trouble Ticket Systems, Mason         Advanced (4 years)
-   JIRA tracking system                      Advanced (1 year)
+   Day Communique 4.2, 5.2, 5.3              Advanced (2 yrs)
+   PHP (Drupal, WordPress, etc.)             Intermediate (3 yrs)
+   Ruby on Rails                             Beginner (1 yr)
+   RT3 Trouble Ticket Systems, Mason         Advanced (4 yrs)
+   JIRA tracking system                      Advanced (3 yrs)
 
 Change Management and Configuration Management: 
-   Subversion, git, CVS                      Advanced (8 years)
-   Make, Ant                                 Advanced (8 years)
-   CfEngine, Puppet                          Intermediate (3 years, 1 year)
-   Kickstart, rpmbuild                       Intermediate (2 years each)
+   Subversion, git, CVS                      Advanced (8 yrs)
+   Make, Ant                                 Advanced (8 yrs)
+   CfEngine, Puppet                          Intermediate (3 yrs, 2 yrs)
+   Kickstart, rpmbuild                       Intermediate (2 yrs each)
    
 Monitoring and Logging: 
-   Nagios/NetSaint                           Expert (6 years)
-   Jopr/Hyperic                              Beginner (1 year)
-   Mysql Enterprise Monitor                  Intermediate (1 year)
-   Spread/SpreadLog                          Advanced (4 years)
-   Syslog, Syslog-NG                         Intermediate (10 years, 2 years)
-   Splunk                                    Beginner(<1 year)
+   Nagios/NetSaint                           Expert (6 yrs)
+   Gomez                                     Intermediate (1 yr)
+   New Relic                                 Beginner (<1 yr)
+   Jopr/Hyperic                              Beginner (1 yr)
+   Mysql Enterprise Monitor                  Intermediate (1 yr)
+   Spread/SpreadLog                          Advanced (4 yrs)
+   Syslog, Syslog-NG                         Intermediate (10 yrs, 2 yrs)
+   Splunk                                    Beginner(<1 yr)
 
 Mail Services:
-   SMTP: Sendmail, Exim, Postfix             Intermediate (10 years, 2 years)
-   Listserves: Majordomo, Mailman            Intermediate (2+ years each)
-   IMAP/POP: UW-IMAP, Dovecot, Courier       Intermediate (2+ years each)
-   SpamAssassin                              Beginner (1 year)
+   SMTP: Sendmail, Exim, Postfix             Intermediate (10 yrs, 2 yrs)
+   Listserves: Majordomo, Mailman            Intermediate (2+ yrs each)
+   IMAP/POP: UW-IMAP, Dovecot, Courier       Intermediate (2+ yrs each)
+   SpamAssassin                              Beginner (1 yr)
 
 Security and Security Tools: 
-   SSH, OpenSSL                              Expert (7 years)
-   Tcpdump, NMap, Ethereal/Wireshark         Advanced (5 years)
-   PGP/GnuPGP                                Intermediate (3 years)
-   Nessus                                    Intermediate (3 years)
-   iptables, ipfilter, pf                    Intermediate (4 years)
-   Tripwire, snort                           Intermediate (2 years)
-   Computer forensics, evidence mgmt         Intermediate (2 years)
-   IPSec, VPN management                     Beginner (1 year)
-   Apache mod_security (web app firewall)    Beginner (< 1 year)
+   SSH, OpenSSL                              Expert (7 yrs)
+   Tcpdump, NMap, Ethereal/Wireshark         Advanced (5 yrs)
+   PGP/GnuPGP                                Intermediate (3 yrs)
+   Nessus                                    Intermediate (3 yrs)
+   iptables, ipfilter, pf                    Intermediate (4 yrs)
+   Tripwire, snort                           Intermediate (2 yrs)
+   Computer forensics, evidence mgmt         Intermediate (2 yrs)
+   IPSec, VPN management                     Beginner (1 yr)
+   Apache mod_security (web app firewall)    Beginner (< 1 yr)
 
