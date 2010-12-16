@@ -1,3 +1,6 @@
+% TODO:
+% - headers with no acheivments are too tightly bunched together
+% - need to update schools
 \documentclass{article}
 \usepackage{fullpage}
 \usepackage{amsmath}
@@ -34,9 +37,8 @@
 #4 $\bullet$  Selected Coursework:\\
 \vspace*{5pt}
 }
-\newcommand{\school}[4]{
+\newcommand{\school}[3]{
  \textbf{#1} #2 $\bullet$ #3\\ 
-#4 \\
 }
 % END RESUME DEFINITIONS
 
@@ -50,94 +52,59 @@
 {7101 Bridle Path Lane, Hyattsville, MD 20782}
 {+1-240-696-2545 $\bullet$ pb@pburkholder.com  $\bullet$ http://www.pburkholder.com/}
 
+\header{Summary Of Qualifications}
+\begin{achievements}
+    \item Experienced manager of cohesive technical teams.  Dedicated to project management across teams of system administrators, software engineers, content developers, and end users.  Able to manage time and resources in dynamic technical environments.
+    \item Unix/Linux System Administrator with a successful record providing reliable and secure computing support.  Skilled in managing heterogeneous environments of Sun Solaris, RedHat/SUSE Linux, Windows (2000, XP, 2003) and Mac OS X systems, and in meeting custom development and production needs.
+    \item Web Administrator/Engineer providing reliable web services on the J2EE and LAMP application stacks.  Provides support throughout software development life cycle from implementation planning to deployment, including version control, configuration management, monitoring, troubleshooting, optimization and debugging.
+\end{achievements}
+
 \header{Work History}
 \employer{AARP (with Inscope International)}{2008-2011}{Senior Web Engineer/Team Lead}
-	\begin{achievements}
-    \item Operated www.aarp.org and affiliated websites with greater than 99.97\% availability.
-	\item Established configuration mangement with Puppet across 44 RHEL 4/5 servers in 3 environments
-    \item Built comprehensive monitoring with Nagios (with custom plugins), MySQLMonitor, NewRelic, Splunk and Gomez
-	\item Ran JBoss appservers, wrote application deployment code, worked with development team in shepherding applications into production 
-	\item Managed F5 GTM and LTM load-balancing, DNS services, MySQL services
-	\item Deployed OpenLDAP authentication and authorization services
-	\item Operated Day Communique CMS 
-    
-Operated 58 web, application, database and development servers (RHEL4/5) for public sites of world's largest membership organization (www.aarp.org and affilated sites).  Deployed Built a comprehensive Nagios/pnp4Nagios, Mysql Monitor, and Jopr system to replace collection of cron scripts and monitor over 750 services.  
-Acted as MySQL DBA with master-master replication across two datacenter for social networking application with 400,000 users. With other team members ran entire J2EE stack ranging from purchase recommendations to OS install to HA/DRBD setup to application configuration to deployment coordination to data center traffic management (with F5 BigIP) to CDN coordination (Limelight) and everything in-between.
-	\end{achievements}
-
-\employer{The Johns Hopkins University - Department of Computer Science}{2003}{Head Course Assistant for 600.113 Internet}
-	\begin{achievements}
-	\item Instructed hands-on web design skills, ranging from basic HTML, to Database-driven websites, to interactive content. Organized the course as a head Course Assistant, held office hours, assigned grades.
-	\end{achievements}
-
-\employer{Cyprus National Guard - Information Technology Branch}{during army service 2000-2002} {Web Designer, Programmer, Network Administrator}
-	\begin{achievements}
-	\item Designed and programmed the website for the Cyprus National Guard. Collaborated with a small team of both officers and drafted personnel for the website and other major projects.
-	\item Headed the design and programming of a secure and efficient document retrieval server, client, and GUI.
-	\item Drafted the security policies for numerous Army servers and administered the network infrastructure.
-	\item Tutored web design (HTML and ASP) to officers. Took part in a team effort to promote Linux usage.
-	\end{achievements}
-
-\employer{Prolix Corporation}{incorporated 2001}{90\% Owner, Programmer and Web Designer}
-	\begin{achievements}
-	\item Created Prolix, a server side application for rapid deployment and management of database intensive websites, and used it to develop websites by contractual agreement.
-	\item Retailed hardware and software after agreement with Multitech Corp., the largest regional importer.
-	\item Collaborated with fellow Fulbright scholars to design a flexible media appliance.
-	\end{achievements}
-
-\employer{University of Cyprus - MRDL (Multimedia Research and Development Laboratory)}{1999}
-	{Web Designer}
-	\begin{achievements}
-	\item Designed websites for the university research project intranet-extranet websites.
-	\item Collaborated with the MRDL Team and proposed and presented changes to existing websites.
-	\end{achievements}
-
-\employer{Hawker Website Creations}{1999}{49\% Partner, Programmer and Web Designer}
-	\begin{achievements}
-	\item Designed a gaming community website for the leading Internet Service Provider in Cyprus, Cytanet.
-	\item Created HawkerCart (flat DB and MySQL versions), applications for rapid creation of e-commerce sites.
-	\end{achievements}
-
-\employer{MCM Developments}{1995 - 1998}{Computer-Aided Architectural Designer}
-	\begin{achievements}
-	\item Designed a 150-house complex (Agros, Cyprus) and a multi-tower complex (Odessa, Ukraine.)
-	\end{achievements}
-
-\employer{Hawker Website Creations}{1999}{49\% Partner, Programmer and Web Designer}
-	\begin{achievements}
-	\item Designed a gaming community website for the leading Internet Service Provider in Cyprus, Cytanet.
-	\item Created HawkerCart (flat DB and MySQL versions), applications for rapid creation of e-commerce sites.
-	\end{achievements}
-\employer{MCM Developments}{1995 - 1998}{Computer-Aided Architectural Designer}
-	\begin{achievements}
-	\item Designed a 150-house complex (Agros, Cyprus) and a multi-tower complex (Odessa, Ukraine.)
-	\end{achievements}
-
-\header{Skills}
 \begin{achievements}
-\item Proficiency in software development in Java, Python, C, C++, C\#, Perl, Assembly, Visual Basic.
-\item Familiarity with Regular Expressions, Threads, Sockets, Database Design, SQL, JSP, ASP, \LaTeX
-\item Familiarity with UNIX, GNU/Linux, Win32.
+  \item Operated 58 web, application, database and development servers (RHEL4/5) for public sites (www.aarp.org and related properties) of United State's largest membership organization.  Managed full stack ranging from OS install (kickstart) to HA/DRBD setup to application configuration to deployment coordination to data center traffic management (with F5 BigIP) to CDN coordination (Limelight) and everything in-between.  Deployed and operated Day Communique WCMS (4.2, 5.2, 5.3) system to serve all content for AARP.  Built a comprehensive monitoring framework with Nagios/pnp4Nagios, Mysql Monitor, New Relic and Gomez to replace collection of cron scripts and monitor over 750 services.  Initiated deployment of Puppet for configuration management and OpenLDAP for authentication and authorization.  Acted as MySQL DBA with master-master replication across two datacenter for social networking application with 400,000 users.  Operated JBossAS 4.2 to provide services to AARP members and visitors.  Coordinated technical activities of four junior system administrators.
 \end{achievements}
 
-\header{Education}
 
-\schoolwithcourses{The Johns Hopkins Univesity}{Baltimore, MD, U.S.A.}{Bachelor of Science in Computer Sci., 2006}
-{Cumulative GPA: 3.84/4.00}
-	\area{Computer Science}{ Unix Programming $\cdot$ Data Structures $\cdot$ Automata \& Computation $\cdot$ Computer System
-Fundamentals $\cdot$ Computer Networks $\cdot$ Info Retrieval and Web Agents $\cdot$ Operating Systems $\cdot$
-Natural Lang Processing $\cdot$ Algorithms $\cdot$ Object Oriented Systems $\cdot$ Declarative Methods $\cdot$
-Artificial Intelligence $\cdot$ Network Security $\cdot$ Databases}
-	\area{Mathematics}{Multivariable Calculus $\cdot$ Linear Algebra $\cdot$ Discrete Math $\cdot$ Math Models}
-
-\header{Honors and Awards}
+\employer{National Center for Biotechnology Information, National Institutes
+of Health, Bethesda, MD (contracted via IS Mavens, Bethesda,
+MD)}{2007-2008}{Applications Administrator}
 \begin{achievements}
-\item  Awarded the 2005 Computer Science Outstanding Undergraduate Award.
-\item Honored with the prestigious CASP Undergraduate Scholarship from the Cyprus Fulbright Commission.
-\item  Awarded the First Prize in English Poetry from The English School, Nicosia, Cyprus.
-\item Included in the Dean's List of Students, for all six completed semesters at the Johns Hopkins University.
+   \item Co-managed over 200 web servers for the U.S. government's busiest web site (http://ncbi.nlm.nih.gov, PubMed, MedLine) using CfEngine and Subversion.  Built, configured and tuned Apache servers, deployed locally-developed applications, operated third-party applications such as Mailman, JIRA, MySQL, ProFTPd and several wiki platforms.  Worked with developers to resolve application issues.  Wrote custom extensions for Jira in JRuby and Ruby.
 \end{achievements}
 
+\employer{University Corporation for Atmospheric Research (UCAR/NCAR),
+Supercomputer Science Center, Boulder, CO}{2007}{COMPUTING SECURITY CONSULTANT}
+
+\begin{achievements}
+\item Developed and delivered a ten-hour training course on IT security for 112 designated system administrators at UCAR/NCAR, a world-renowned research center.  Topics included Solaris/Linux hardening, incident response, data protection, patch management and OsX security
+\end{achievements}
+
+\employer{EchoDitto, LLC, Washington, DC}{2007}{DIRECTOR OF SYSTEM AND NETWORK OPERATIONS}
+\begin{achievements}
+  \item Operated LAMP-based web server farm and Akamai content delivery network for two dozen clients of Internet strategy firm.  Launched up to four new Drupal-based client sites per month, and met peak demand of 910,000 visitors/day.  Managed internal systems for email (EXIM), VOIP (Asterisk), and Mac OS X systems. 
+\end{achievements}
+ 
+\employer{University Corporation for Atmospheric Research (UCAR/NCAR), DLESE
+Program Center, Boulder, CO}{2002-2006}{SENIOR SYSTEM ADMINISTRATOR}
+\begin{achievements}
+    \item Supervised team of three to operate the technical infrastructure for a J2EE-based digital library.  
+    \item Developed infrastructure for RedHat Linux (RHEL) servers with Kickstart deployments, CfEngine+Subversion configuration management, NIS+Kerberos directory service and authentication, automated backups, monitoring and alerting.  Automated deployment of Java web applications (ant). Supervised administration of 80 desktop and portable systems.  
+    \item Provided outstanding customer support in Windows, Linux (Redhat), Unix (Solaris) and MacOSX environments.  Won bids to assume operation for two other programs within our corporation.  Expanded team from one to three full-time system administrators. 
+\end{achievements}
+
+
+\employer{APPLIED PHYSICS LAB, University of Washington, Seattle, WA
+}{2000-2001}{INTERIM COMPUTING SERVICES MANAGER / IT Security Manager}
+\begin{achievements}
+    \item Managed a team of four staff providing central computing services for a research lab with a staff of 350. Ran network services (DNS, DHCP, mail, etc.) for 500+ nodes. Configured, installed, and managed core servers (Solaris 2.6-2.8, Linux (RedHat and Debian), Windows 2000 and MacOS) for subsidiary groups.  Expanded network infrastructure from three Class C subnets to five.  Configured and upgraded Sendmail, BIND, DHCP, FTP and printing services.
+    \item As the lab's first manager of IT security, implemented a program of vulnerability scanning and patching, system administrator education, automated hardening, and a formalized incident response and forensics program.
+\end{achievements}
+
+\employer{GEOPHYSICS PROGRAM, University of Washington, Seattle, WA}{1998-2000}{RESEARCH SCIENTIST}
+
+\employer{DEPARTMENT OF GEOPHYSICS, University of the Witwatersrand,
+Johannesburg, South Africa}{1997-1998}{SYSTEMS ADMINISTRATOR / FIELD ENGINEER}
 
 
 \header{Publications and Presentations}
@@ -171,22 +138,17 @@ Artificial Intelligence $\cdot$ Network Security $\cdot$ Databases}
 \item Microsoft MCP, 2001
 \end{achievements}
 
+\header{Education}
 
-\header{Education and Honors}
-
-%\begin{achievements}
-MS Geophysics / Seismology.  University of Wisconsin-Madison
-
-BA Physics, cum laude. Earlham College, Richmond, Indiana
-
-Honors: Phi Beta Kappa, University of Wisconsin Graduate School Honors Fellow, National Merit Scholar
-%\end{achievements}
+\school{Univeristy of Wisconsin - Madison}{Madison, Wisconsin} {Master of Science in Geophysics (Seismology)}
+\school{Earlham College}{Richmond, Indiana}{Bachelor of Arts in Physics}
+%\school{Honors:}{Phi Beta Kappa, University of Wisconsin Graduate School Honors Fellow, National Merit Scholar}
 
 \header{Professional Affiliations}
-%\begin{achievements}
-Meeting Coordinator for DC-SAGE.  
-System Administrators Guild (SAGE), USENIX, League of Professional System Administrators (LOPSA) 
-%\end{achievements}
+\begin{achievements}
+\item Meeting Coordinator for DC-SAGE.  
+\item System Administrators Guild (SAGE), USENIX, League of Professional System Administrators (LOPSA) 
+\end{achievements}
 
 
 % trouble rendering < symbol.  See
