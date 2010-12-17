@@ -1,0 +1,214 @@
+Peter David Burkholder
+7101 Bridle Path Lane
+Hyattsville, Maryland 20782
+
+Phone: 240-696-2545
+mailto:pburkholder@pobox.com
+http://www.pburkholder.com
+
+SUMMARY OF QUALIFICATIONS
+
+* Unix/Linux System Administrator with a successful record providing reliable and secure computing support.  Skilled in managing heterogeneous environments of Sun Solaris, RedHat/SUSE Linux, Windows (2000, XP, 2003) and Mac OS X systems, and in meeting custom development and production needs.
+
+* Web Administrator/Engineer providing reliable web services on the J2EE and LAMP application stacks.  Provides support throughout software development life cycle from implementation planning to deployment, including version control, configuration management, monitoring, troubleshooting, optimization and debugging.
+
+* Dedicated to project management across teams of system administrators, software engineers, content developers, and end users.  Able to self-manage time and resources in dynamic technical environments.
+
+
+PROFESSIONAL EXPERIENCE
+
+Web Strategy & Operations, AARP, Washington DC
+* SENIOR WEB ENGINEER (November 2008 - present)
+-- Operated 58 web, application, database and development servers (RHEL4/5) for public sites of world's largest membership organization.  Built a comprehensive Nagios/pnp4Nagios, Mysql Monitor, and Jopr system to replace collection of cron scripts and monitor over 750 services.  Acted as MySQL DBA with master-master replication across two datacenter for social networking application with 400,000 users. With other team members ran entire J2EE stack ranging from purchase recommendations to OS install to HA/DRBD setup to application configuration to deployment coordination to data center traffic management (with F5 BigIP) to CDN coordination (Limelight) and everything in-between.
+
+National Center for Biotechnology Information, National Institutes of Health, Bethesda, MD
+* APPLICATIONS ADMINISTRATOR (November 2007 - November 2008)
+-- Co-managed over 200 web servers for the U.S. government's busiest web site using CfEngine and Subversion.  Built, configured and tuned Apache servers, deployed locally-developed applications, operated third-party applications such as Mailman, JIRA, MySQL, ProFTPd and several wiki platforms.  Worked with developers to resolve application issues.  
+
+EchoDitto, LLC, Washington, DC
+* DIRECTOR OF SYSTEM AND NETWORK OPERATIONS (February 2007 - September 2007)
+-- Operated LAMP-based web server farm and Akamai content delivery network for two dozen clients of Internet strategy firm.  Launched up to four new Drupal-based client sites per month, and met peak demand of 910,000 visitors/day.  Managed internal systems for email (EXIM), VOIP (Asterisk), and Mac OS X systems. 
+ 
+University Corporation for Atmospheric Research (UCAR/NCAR), Boulder, CO 
+* COMPUTING SECURITY CONSULTANT, Supercomputer Science Center (August 2007 - December 2008)
+
+-- Developed and delivered a ten-hour training course on IT security for 112 designated system administrators at UCAR/NCAR, a world-renowned research center.  Topics included Solaris/Linux hardening, incident response, data protection, patch management and OsX security
+
+* SENIOR SYSTEM ADMINISTRATOR, DLESE Program Center (May 2002 - September 2006)
+
+-- Supervised team of three to operate the technical infrastructure for a J2EE-based digital library.  
+
+-- Developed infrastructure for RedHat Linux (RHEL) servers with Kickstart deployments, CfEngine+Subversion configuration management, NIS+Kerberos directory service and authentication, automated backups, monitoring and alerting.  Automated deployment of Java web applications (ant). Supervised administration of 80 desktop and portable systems.  
+
+-- Provided outstanding customer support in Windows, Linux (Redhat), Unix (Solaris) and MacOSX environments.  Won bids to assume operation for two other programs within our corporation.  Expanded team from one to three full-time system administrators. 
+
+
+APPLIED PHYSICS LAB, University of Washington, Seattle, WA 
+* INTERIM COMPUTING SERVICES MANAGER / SENIOR COMPUTING SPECIALIST (July 2000 - December 2000)
+
+-- Managed a team of four staff providing central computing services for a research lab with a staff of 350. Ran network services (DNS, DHCP, mail, etc.) for 500+ nodes. Configured, installed, and managed core servers (Solaris 2.6-2.8, Linux (RedHat and Debian), Windows 2000 and MacOS) for subsidiary groups.  Expanded network infrastructure from three Class C subnets to five.  Configured and upgraded Sendmail, BIND, DHCP, FTP and printing services.
+
+* IT SECURITY MANAGER / SENIOR COMPUTING SPECIALIST (March 2000 - July 2000, December 2000 - July 2001)
+
+-- As the lab's first manager of IT security, implemented a program of vulnerability scanning and patching, system administrator education, automated hardening, and a formalized incident response and forensics program.
+ 
+
+GEOPHYSICS PROGRAM, University of Washington, Seattle, WA
+* RESEARCH SCIENTIST (August 1998 -- March 2000)
+
+DEPARTMENT OF GEOPHYSICS, University of the Witwatersrand, Johannesburg, South Africa
+* SYSTEMS ADMINISTRATOR / FIELD ENGINEER (March 1997 -- August 1998)
+
+PUBLICATIONS & PRESENTATIONS
+
+"Introduction to EC2 and Cloud Computing," Inaugural Presentation NCBI Monthly Lunch Talks, May 2008.
+
+"Topics in Mac OS X Security," Four-hour course for UCAR/NCAR computing personnel, December 2007.
+
+"Topics in Cross-Platform Computing Security," Four-hour course for UCAR/NCAR sysadmins, December 2007.  
+
+"Topics in Unix/Linux Security," Four-hour course for UCAR/NCAR computing staff, November 2007.
+
+"Essentials of Windows Incident Response," 30-minute segment of Windows security course, November 2007.
+
+"UCAR Security Essentials,"  Four-hour course for UCAR/NCAR sysadmins, September 2007.
+
+"SVK: A compelling complement to Subversion," Employer Job Talk, January 2007.
+
+"SSL Man-in-the-Middle Attacks," UCAR Security Breakfast, September 2006.
+
+"Under the Hood with Plone," UCAR, April 2006.
+
+"The RT3 Trouble Ticket System," UCAR, December 2004.  
+
+"Shibboleth: Privacy-Preserving Authentication for the Web," UCAR Web Advisory Group, October 2004
+
+"DLESE: A Library to Support Geoscience Education Reform," Geoscience Africa, Johannesburg, South Africa, July 2004
+
+"Subversion: An compelling alternative to CVS," Colorado SAGE Meeting, February 2004
+
+"Securing Web Applications," ISSA Denver Chapter Monthly Meeting, April 2002
+
+"SSL Man-in-the-Middle Attacks," SANS Reading Room,http://www.sans.org/rr/whitepapers/threats/480.php, 2002
+
+"SSH and SSL for SysAdmins," Colorado SAGE Meeting, November 2001, and University of Washington, January 2002
+
+"Linux Security Essentials," a two-hour course for researchers self-administering Linux systems on patching, system scanning, and ipchains,  Applied Physics Lab, Seattle, Washington, April 2001.
+
+"Unix for Geophysicists," a two-day course on shell commands, essential system administration, and using geophysical analysis tools.  Johannesburg, South Africa, June 1998.
+
+
+CERTIFICATIONS
+
+ISC^2 System Security Certified Professional (SSCP), 2002 (lapsed)
+
+SANS Institute GIAC Security Essentials Certification (GSEC), 2002
+
+Usenix/SAGE cSAGE II, 2001
+
+Microsoft MCP, 2001
+
+
+EDUCATION & HONORS
+
+MS Geophysics / Seismology.  University of Wisconsin-Madison
+
+BA Physics, cum laude. Earlham College, Richmond, Indiana
+
+Honors: Phi Beta Kappa, University of Wisconsin Graduate School Honors Fellow, National Merit Scholar
+
+
+PROFESSIONAL AFFILIATIONS
+
+
+Meeting Coordinator for DC-SAGE.  
+System Administrators Guild (SAGE), USENIX, League of Professional System Administrators (LOPSA) 
+
+
+
+Operating Systems and Platforms: 
+   Hokey Alignment Line AAAAAA AAAAAA AAAAA = Advanced (10 years each)
+   Linux 2.4/2.6 (RHEL, Debian, SUSE)       = Expert-Advanced (10 years)
+   Sun Solaris (1.x - 2.9)                  = Advanced (10 years)
+   MacOSX                                   = Advanced (5 years)
+   Windows 95-XP/2003                       = Intermediate (10 years)
+   OpenBSD/FreeBSD                          = Beginner (1 year)
+   VmWare (Server and Workstation)          = Intermediate (6 years)
+   Xen, EC2                                 = Beginner (1 year)
+    
+Programming and Scripting Languages: 
+   Hokey Alignment Line AAAAAA AAAAAA AAAAA = Advanced (10 years each)
+   Unix command line                        = Expert (15 years)
+   Shell script (Bourne shell, csh, bash)   = Expert (10+ years each)
+   Perl                                     = Advanced (10 years)
+   Ruby                                     = Intermediate (3 years)
+   m4, python, C, Java, tcl/tk              = Intermediate (approx. 2 years each)
+
+Infrastructure: 
+   Hokey Alignment Line AAAAAA AAAAAA AAAAA = Advanced (10 years each)
+   DNS, DHCP, NIS, NFS, Samba/CIFS/SMB      = Advanced (10 years each)
+   LDAP                                     = Advanced (4 years)
+   NetSNMP                                  = Intermediate (2 years)
+   Kerberos, Active Directory               = Intermediate (4 years)
+   RAID and LVM                             = Intermediate (4 years)
+   Relational Databases: MySQL, PostgreSQL  = Intermediate (4 years, 2 years)
+   DRBD, Heartbeat, High-availability       = Intermediate (2 years)
+   Amanda, Tape Backup                      = Advanced (5+ years)
+   LPR/LPD, LPRng, CUPS                     = Advanced (5+ years each)
+   VOIP: Asterisk, IAX, SIP                 = Intermediate (1 year)
+   F5 BigIP LTM/GTM                         = Intermediate (1 year)
+   
+Web Servers, Application Servers, and Web Operations
+   Hokey Alignment Line AAAAAA AAAAAA AAAAA = Advanced (10 years each)
+   Apache Web Server (1.3.x, 2.0.X, 2.2.X)
+     mod_rewrite, mod_ssl, mod_fastcgi      = Expert (5 years)
+   JBoss 4.x                                = Intermediate (2 years)
+   Apache Tomcat 4.x/5.x
+   JSP, Servlets, AJP                       = Expert (5 years)
+   Zope/Plone                               = Intermediate (3 years)
+   Limelight Deliver, Akamai EdgeSuite      = Intermediate (1 year)
+   Amazon Web Services (S3, EC2)            = Beginner (1 year)
+
+Web and CMS Applications
+   Hokey Alignment Line AAAAAA AAAAAA AAAAA = Advanced (10 years each)
+   Day Communique 4.2/5.0                   = Intermediate (1 year)
+   PHP (Drupal, WordPress, etc.)            = Intermediate (3 years)
+   Ruby on Rails                            = Beginner (1 year)
+   RT3 Trouble Ticket Systems, Mason        = Advanced (4 years)
+   JIRA tracking system                     = Advanced (1 year)
+
+Change Management and Configuration Management: 
+   Hokey Alignment Line AAAAAA AAAAAA AAAAA = Advanced (10 years each)
+   Subversion, git, CVS                     = Advanced (8 years)
+   Make, Ant                                = Advanced (8 years)
+   CfEngine, Puppet                         = Intermediate (3 years, 1 year)
+   Kickstart, rpmbuild                      = Intermediate (2 years each)
+   
+Monitoring and Logging: 
+   Hokey Alignment Line AAAAAA AAAAAA AAAAA = Advanced (10 years each)
+   Nagios/NetSaint                          = Expert (6 years)
+   Jopr/Hyperic                             = Beginner (1 year)
+   Mysql Enterprise Monitor                 = Intermediate (1 year)
+   Spread/SpreadLog                         = Advanced (4 years)
+   Syslog, Syslog-NG                        = Intermediate (10 years, 2 years)
+   Splunk                                   = Beginner(<1 year)
+
+Mail Services:
+   Hokey Alignment Line AAAAAA AAAAAA AAAAA = Advanced (10 years each)
+   SMTP: Sendmail, Exim, Postfix            = Intermediate (10 years, 2 years)
+   Listserves: Majordomo, Mailman           = Intermediate (2+ years each)
+   IMAP/POP: UW-IMAP, Dovecot, Courier      = Intermediate (2+ years each)
+   SpamAssassin                             = Beginner (1 year)
+
+Security and Security Tools: 
+   Hokey Alignment Line AAAAAA AAAAAA AAAAA = Advanced (10 years each)
+   SSH, OpenSSL                             = Expert (7 years)
+   Tcpdump, NMap, Ethereal/Wireshark        = Advanced (5 years)
+   PGP/GnuPGP                               = Intermediate (3 years)
+   Nessus                                   = Intermediate (3 years)
+   iptables, ipfilter, pf                   = Intermediate (4 years)
+   Tripwire, snort                          = Intermediate (2 years)
+   Computer forensics, evidence mgmt        = Intermediate (2 years)
+   IPSec, VPN management                    = Beginner (1 year)
+   Apache mod_security (web app firewall)   = Beginner (< 1 year)
+
