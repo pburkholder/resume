@@ -2,7 +2,7 @@
 \documentclass{article}
 % http://en.wikibooks.org/wiki/LaTeX/Page_Layout
 \usepackage[letterpaper]{geometry}
-%\usepackage{fullpage}
+\usepackage{fullpage}
 \textheight=9in
 \usepackage{amsmath}
 \usepackage{amssymb}
@@ -19,6 +19,13 @@
 \newcommand{\area}[2]{\vspace*{-9pt} \begin{verse}\textbf{#1}   #2 \end{verse}  }
 \newcommand{\lineunder}{\vspace*{-8pt} \\ \hspace*{-18pt} \hrulefill \\}
 \newcommand{\header}[1]{{\hspace*{-15pt}\vspace*{6pt} \textsc{#1}} \vspace*{-6pt} \lineunder}
+\newcommand{\centeredheader}[1]{
+  \vspace*{6pt} 
+  \begin{center}
+    \textsc{#1}
+    \lineunder
+  \end{center}
+}
 \newcommand{\employer}[3]{{ \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\ \nopagebreak }}
 \newcommand{\skillset}[1]{{ \underline{\textbf{\emph{#1}}}\\  \nopagebreak }}
 \newcommand{\skill}[2]{{$\bullet$ #1 \hfill #2 }}
@@ -51,21 +58,30 @@
 
 \contact{Peter D. Burkholder}
 {7101 Bridle Path Lane, Hyattsville, Maryland 20782}
-{+1-240-696-2545 $\bullet$ pburkholder@pobox.com  $\bullet$ http://www.pburkholder.com/ $\bullet$ http://linkedin.com/in/pburkholder }
+{+1-240-696-2545 $\bullet$ pburkholder@pobox.com  $\bullet$ http://www.pburkholder.com/ $\bullet$ Twitter: @pburkholder $\bullet$ http://linkedin.com/in/pburkholder }
 
-\header{Objective}
+\centeredheader{DEVOPS $\bullet$ WEB ENGINEER $\bullet$ CONFIGURATION MANAGEMENT $\bullet$ AWS}
 \begin{achievements}
-    \item Deliver greater business value, more rapidly, from your web or IT operations.
+   \item Operations leadership through product life cycle from planning to deployment. Expertise includes version control, continuous integration, scripted deployments, AWS cloud computing, configuration management, monitoring, troubleshooting, optimization and debugging.
 \end{achievements}
 
-\header{Summary Of Qualifications}
+%\header{Achievements}
+\smallskip
+
+\employer{Rally Health Inc (previously known as Audax Health Inc.), Washington, DC)}{2012-present}{Cloud/Devops Engineer}
 \begin{achievements}
-    \item Unix/Linux System Administrator with a successful record providing reliable and secure computing support. Expertise includes RedHat Enterprise Linux (RHCE, 2011), Apache web server, MySQL, web operations and configuration management.
-    \item Web Administrator/Engineer providing reliable web services on the J2EE and LAMP application stacks.  Provides support throughout software development life cycle from implementation planning to deployment, including version control, continuous integration, scripted deployments, configuration management, monitoring, troubleshooting, optimization and debugging.
+  \item Operated over 300 nodes in AWS EC2 under HIPAA-compliance regulations to support on-line health and wellness platform
+  \item Designed and wrote Ruby-base zero-downtime release system to shift load-balanced traffic between versions of application code
+  \item Deployed and operated MongoDB cluster for high-availability. Migrated cluster to AWS Virtual Private Cloud.
+  \item Monitored node and application health with \emph{Sensu}. Replaced commercial application monitor with open-source CasperJS and Sensu integration, delivering 10x the monitoring at 1/10th the cost.
+  \item Migrated infrastructure from Puppet configuration under RightScale to Chef configuration under native AWS.
+  \item Deployed Graphite/StatsD/CollectD and Logstash/Elasticsearch for aggregation and search across metrics and application logs
+  \item Supported Jenkins continuous integration, test and release to development and staging environments.
+  \item Enhanced company's community standing by organizing and hosted DevOpsDC MeetUps. Inaugurated company's Engineering Blog in 2012.
 \end{achievements}
 
-\header{Work History}
-\employer{AARP Digital Strategy and Operations, Washington, DC (contracted \emph{via} Inscope International, Reston, VA)}{2008-present}{Senior Web Engineer/Team Lead}
+
+\employer{AARP Digital Strategy and Operations, Washington, DC}{2008-2012}{Senior Web Engineer/Team Lead}
 \begin{achievements}
   \item Operated 58 web, application, database and development machines (RHEL4/5) to serve 3 million pages/day for AARP.org, the United State's largest membership organization.  Managed full stack ranging from OS install to HA/DRBD setup to application configuration to deployment coordination to load-balancing and CDN management. 
   \item Supported thirty-six staff in their development pipeline for JBossAS and Day Communiqu\'{e} applications using Subversion, Confluence, Jira, CruiseControl, and build tools including Maven and Ant.  Installed and Operated JBossAS and Adode Day Communiqu\'{e} in development and production.
@@ -74,7 +90,7 @@
 
 
 \employer{National Center for Biotechnology Information, National Institutes
-of Health, Bethesda, MD (contracted \emph{via} IS Mavens, Bethesda, MD)}{2007-2008}{Applications Administrator}
+of Health, Bethesda, MD}{2007-2008}{Applications Administrator}
 \begin{achievements}
    \item Co-managed over 200 web servers for the U.S. government's busiest web site (http://ncbi.nlm.nih.gov, PubMed, MedLine) using CfEngine and Subversion.  Built, configured and tuned Apache servers, deployed locally-developed applications, operated third-party applications such as Mailman, Jira, MySQL, ProFTPd and several wiki platforms.  Worked with developers to resolve application issues.  Wrote custom extensions for Jira in JRuby and Ruby.  Customized RT3 ticket system in Perl/Catalyst.
 \end{achievements}
