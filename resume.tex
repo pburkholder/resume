@@ -28,7 +28,7 @@
 }
 \newcommand{\employer}[3]{{ \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\ \nopagebreak }}
 \newcommand{\skillset}[1]{{ \underline{\textbf{\emph{#1}}}\\  \nopagebreak }}
-\newcommand{\skill}[2]{{$\bullet$ #1 \hfill #2 }}
+\newcommand{\skill}[2]{{$\bullet$ #1 \hfill #2 \newline}}
 \newcommand{\contact}[3]{
     \vspace*{-8pt}
     \begin{center}
@@ -62,42 +62,46 @@
 
 \centeredheader{DEVOPS $\bullet$ WEB ENGINEER $\bullet$ CONFIGURATION MANAGEMENT $\bullet$ AWS}
 \begin{achievements}
-   \item Operations leadership through product life cycle from planning to deployment. Expertise includes version control, continuous integration, scripted deployments, AWS cloud computing, configuration management, monitoring, troubleshooting, optimization and debugging.
+   \item Operations leadership through product life cycle from planning to continuous release. Expertise includes AWS cloud computing, capacity planning, configuration management, monitoring, version control, continuous delivery, Agile development (Kanban & Scrum), scripted deployments, and incident management.
 \end{achievements}
 
 %\header{Achievements}
 \smallskip
 
-\employer{Rally Health Inc (previously known as Audax Health Inc.), Washington, DC)}{2012-present}{Cloud/Devops Engineer}
+\employer{Rally Health Inc (previously known as Audax Health Inc.), Washington, DC}{2012-present}{Cloud/Devops Engineer}
 \begin{achievements}
-  \item Operated over 300 nodes in AWS EC2 under HIPAA-compliance regulations to support on-line health and wellness platform
-  \item Designed and wrote Ruby-base zero-downtime release system to shift load-balanced traffic between versions of application code
+  \item Operated over 220 nodes in AWS EC2 under HIPAA-compliance to support on-line health and wellness platform
+  \item Designed and wrote Ruby-based zero-downtime release system to shift load-balanced (HAProxy and AWS ELB) traffic between versions of application code
   \item Deployed and operated MongoDB cluster for high-availability. Migrated cluster to AWS Virtual Private Cloud.
-  \item Monitored node and application health with \emph{Sensu}. Replaced commercial application monitor with open-source CasperJS and Sensu integration, delivering 10x the monitoring at 1/10th the cost.
+  \item Monitored node and application health with \emph{Sensu}. Replaced commercial web-application monitors, Pingdom and NeuStar Nimsoft) with open-source CasperJS and Sensu integration, delivering 10x the monitoring at 1/10th the cost.
   \item Migrated infrastructure from Puppet configuration under RightScale to Chef configuration under native AWS.
-  \item Deployed Graphite/StatsD/CollectD and Logstash/Elasticsearch for aggregation and search across metrics and application logs
+  \item Deployed Graphite/StatsD/CollectD and Logstash/Elasticsearch/Kibana for aggregation and search across metrics and 12Gb/day of application logs.
   \item Supported Jenkins continuous integration, test and release to development and staging environments.
-  \item Enhanced company's community standing by organizing and hosted DevOpsDC MeetUps. Inaugurated company's Engineering Blog in 2012.
+  \item Enhanced company's community standing by organizing and DevOpsDC MeetUps. Inaugurated company's Engineering Blog in 2012.
 \end{achievements}
 
 
 \employer{AARP Digital Strategy and Operations, Washington, DC}{2008-2012}{Senior Web Engineer/Team Lead}
 \begin{achievements}
-  \item Operated 58 web, application, database and development machines (RHEL4/5) to serve 3 million pages/day for AARP.org, the United State's largest membership organization.  Managed full stack ranging from OS install to HA/DRBD setup to application configuration to deployment coordination to load-balancing and CDN management. 
-  \item Supported thirty-six staff in their development pipeline for JBossAS and Day Communiqu\'{e} applications using Subversion, Confluence, Jira, CruiseControl, and build tools including Maven and Ant.  Installed and Operated JBossAS and Adode Day Communiqu\'{e} in development and production.
-  \item Built a monitoring system with Nagios/pnp4Nagios (750 services), Mysql Monitor, New Relic and Gomez.  Wrote web QA tools with Watir and Curl. Deployed Puppet and Chef for configuration management. Acted as MySQL DBA to run master-master replication across two data centers. Used AWS/EC2 to test new system builds. Built business continuity environment at remote data center. Developed Perl scripts to automate routine work.  Coordinated technical activities of four junior system administrators.
+  \item Operated over 50 web, application, database and development machines (RHEL4/5) to serve 3 million pages/day for AARP.org, the United State's largest membership organization.  
+  \item Led team of four system administrators in Scrum-style approach to work management.
+  \item Managed full stack ranging from OS install to application configuration to deployment coordination to load-balancing and CDN management. 
+  \item Supported thirty-six staff in their development pipeline for JBossAS and Day Communiqu\'{e} applications using Subversion, Confluence, Jira, CruiseControl, and build tools including Maven and Ant.  
+  \item Assured MySQL availability with HA/DRBD pairs on each datacenter master, and master-master replication between two datacenters.  
+  \item Built a monitoring system with Nagios/pnp4Nagios (750 services), Mysql Monitor, New Relic and Gomez.  Wrote web QA tools with Watir and Curl. 
+  \item Deployed Puppet for configuration management. Introduced AWS/EC2 to test new system builds. 
+  \item Built business continuity environment at remote data center. 
 \end{achievements}
 
 
-\employer{National Center for Biotechnology Information, National Institutes
-of Health, Bethesda, MD}{2007-2008}{Applications Administrator}
+\employer{National Center for Biotechnology Information, National Institutes of Health, Bethesda, MD}{2007-2008}{Applications Administrator}
 \begin{achievements}
-   \item Co-managed over 200 web servers for the U.S. government's busiest web site (http://ncbi.nlm.nih.gov, PubMed, MedLine) using CfEngine and Subversion.  Built, configured and tuned Apache servers, deployed locally-developed applications, operated third-party applications such as Mailman, Jira, MySQL, ProFTPd and several wiki platforms.  Worked with developers to resolve application issues.  Wrote custom extensions for Jira in JRuby and Ruby.  Customized RT3 ticket system in Perl/Catalyst.
+   \item Co-managed over 200 web servers for the U.S. government's busiest web site (http://ncbi.nlm.nih.gov, PubMed, MedLine) using CfEngine and Subversion.  
+   \item Built, configured and tuned Apache servers, deployed locally-developed applications, operated third-party applications such as Mailman, Jira, MySQL, ProFTPd and several wiki platforms.  
+   \item Worked with developers to resolve application issues.  Wrote custom extensions for Jira in JRuby and Ruby.  Customized RT3 ticket system in Perl/Catalyst.
 \end{achievements}
 
-\employer{University Corporation for Atmospheric Research (UCAR/NCAR),
-Supercomputer Science Center, Boulder, CO}{2007}{Computing Security Consultant}
-
+\employer{University Corporation for Atmospheric Research (UCAR/NCAR), Supercomputer Science Center, Boulder, CO}{2007}{Computing Security Consultant}
 \begin{achievements}
 \item Developed and delivered a training course on IT security for 112 designated system administrators at UCAR/NCAR, a world-renowned research center.  Over four months, created and offered four 3-hour classes in multiple sessions. Topics included Solaris/Linux hardening, incident response, data protection, patch management and Mac OS X security
 \end{achievements}
@@ -105,41 +109,46 @@ Supercomputer Science Center, Boulder, CO}{2007}{Computing Security Consultant}
 %\pagebreak
 \employer{EchoDitto, LLC, Washington, DC}{2007}{Director Of System And Network Operations}
 \begin{achievements}
-  \item Operated LAMP-based web server farm and Akamai content delivery network for two dozen clients of Internet strategy firm.  Launched up to four new Drupal-based client sites per month, and met peak demand of 910,000 visitors/day.  Managed internal systems for email (Exim), VOIP (Asterisk), and Mac OS X systems. 
+  \item Operated LAMP-based web server farm and Akamai content delivery network for two dozen clients of Internet strategy firm.  
+  \item Launched up to four new Drupal-based client sites per month, and met peak demand of 910,000 visitors/day.  
+  \item Managed internal systems for email (Exim), VOIP (Asterisk), and Mac OS X systems. 
 \end{achievements}
  
-\employer{University Corporation for Atmospheric Research (UCAR/NCAR), DLESE
-Program Center, Boulder, CO}{2002-2006}{Senior System Administrator}
+\employer{University Corporation for Atmospheric Research (UCAR/NCAR), DLESE Program Center, Boulder, CO}{2002-2006}{Lead System Administrator}
 \begin{achievements}
-    \item Supervised team of three to operate the technical infrastructure for a J2EE-based digital library.  
-    \item Developed infrastructure for Red Hat Linux (RHEL) servers with Kickstart deployments, CfEngine+Subversion configuration management, NIS+Kerberos directory service and authentication, automated backups, monitoring and alerting.  Automated deployment of Java web applications (ant). Supervised administration of 80 desktop and portable systems.  
-    \item Provided outstanding customer support in Windows, Linux (Red Hat), Unix (Solaris) and MacOSX environments.  Won bids to assume operation for two other programs within our corporation.  Expanded team from one to three full-time system administrators. 
+    \item Supervised team of three syadmins to operate the technical infrastructure for a J2EE-based digital library.  
+    \item Developed infrastructure for Red Hat Linux (RHEL) servers with Kickstart deployments, CfEngine+Subversion configuration management, NIS+Kerberos directory service and authentication, automated backups, monitoring and alerting. Automated deployment of Java web applications (ant). Supervised administration of 80 desktop and portable systems.  
+    \item Provided outstanding customer support in Windows, Linux (Red Hat), Unix (Solaris) and MacOSX environments. Won bids to assume operations for two other programs within our corporation. Expanded team from one to three full-time system administrators. 
 \end{achievements}
 
 
-\employer{Applied Physics Lab, University of Washington, Seattle, WA
-}{2000-2001}{Interim Computing Services Manager / IT Security Manager}
+\employer{Applied Physics Lab, University of Washington, Seattle, WA}{2000-2001}{Interim Computing Services Manager / IT Security Manager}
 \begin{achievements}
-    \item Managed a team of four staff providing central computing services for a research lab with a staff of 350. Ran network services (DNS, DHCP, mail, etc.) for 500+ nodes. Configured, installed, and managed core servers (Solaris 2.6-2.8, Linux (Red Hat and Debian), Windows 2000 and MacOS) for subsidiary groups.  Expanded network infrastructure from three Class C subnets to five.  Configured and upgraded Sendmail, BIND, DHCP, FTP and printing services.
+    \item Managed a team of four full-time and part-time staff to provide computing services for 350 scientists and engineers.
+    \item Set strategy in consultation with Lab's computing advisory group, managed budget with Lab administration, and hired new director upon my relocation to Colorado. 
+    \item Ran network services (DNS, DHCP, mail, etc.) for 500+ nodes. Configured, installed, and managed core servers: (Solaris 2.6-2.8), Linux (Red Hat and Debian), Windows 2000 and MacOS.  Expanded network infrastructure from three Class C subnets to five. Configured and upgraded Sendmail, BIND, DHCP, FTP and printing services.
     \item As the lab's first manager of IT security, implemented a program of vulnerability scanning (Nessus) and patching, system administrator education, automated hardening (Bastille), and a formalized incident response and forensics program (TCT).
 \end{achievements}
 
-\employer{Geophysics Program, University of Washington, Seattle, WA}{1998-2000}{Research Scientist}
-\begin{achievements}
-    \item Maintained C and Perl code for near real-time web access to seismic data from the IRIS data center.  Managed Y2K code clean up.  Launched initiative to provide Debian workstations to graduate students.  Supported field work for Pacific Northwest Seismic Network.
-\end{achievements}
 
-\employer{Department Of Geophysics, University of the Witwatersrand,
-Johannesburg, South Africa}{1997-1998}{Systems Administrator / Field Engineer}
-\begin{achievements}
-    \item Built geophysical data analysis lab from Solaris workstation parts discarded by gold and diamond mining companies.  Instructed students and faculty on Unix data analysis tools.  Led field work for joint US/South Africa field seismology program.
-\end{achievements}
-
+%%  \employer{Geophysics Program, University of Washington, Seattle, WA}{1998-2000}{Research Scientist}
+%%  \begin{achievements}
+%%      \item Maintained C and Perl code for near real-time web access to seismic data from the IRIS data center.  
+%%       Managed Y2K code clean up.  Launched initiative to provide Debian workstations to graduate students. Supported field work for Pacific Northwest Seismic Network.
+%%  \end{achievements}
+%%  
+%%  \employer{Department Of Geophysics, University of the Witwatersrand,
+%%  Johannesburg, South Africa}{1997-1998}{Systems Administrator / Field Engineer}
+%%  \begin{achievements}
+%%      \item Built geophysical data analysis lab from Solaris workstation parts discarded by gold and diamond mining companies.  
+%%  Instructed students and faculty on Unix data analysis tools.  Led field work for joint US/South Africa field seismology program.
+%%  \end{achievements}
 
 \header{Selected Publications and Presentations}
 \begin{achievements}
+\item ``Sensu: A Cloud-ready Monitoring Framework," DevOpsDC, May 2012.
 \item ``Continuous Delivery: A Roadmap for AARP," AARP Lunch and Learn, March 2011.
-\item ``DevOps at Flickr, or, 10+ Deploys a Day," AARP Lunch and Learn, October 2010.
+% \item ``DevOps at Flickr, or, 10+ Deploys a Day," AARP Lunch and Learn, October 2010.
 \item ``Introduction to EC2 and Cloud Computing," Inaugural Presentation NCBI Monthly Lunch Talks, May 2008.
 \item ``Topics in Mac OS X Security," Four-hour course for UCAR/NCAR computing personnel, December 2007.
 \item ``Topics in Cross-Platform Computing Security," Four-hour course for UCAR/NCAR sysadmins, December 2007.  
@@ -161,8 +170,9 @@ Johannesburg, South Africa}{1997-1998}{Systems Administrator / Field Engineer}
 \end{achievements}
 
 
-\header{Certifications}
+\header{Certification / Training}
 \begin{achievements}
+\item MongoDB for Administrators: 10gen M102, 2013
 \item Red Hat Certified System Administrator (RHCSA RHEL 6), 2011, ID: 111-114-716
 \item Red Hat Certified Engineer (RHCE RHEL 6), 2011, ID: 111-114-716
 \item ISC$^{2}$ System Security Certified Professional (SSCP), 2002 (lapsed)
@@ -182,7 +192,7 @@ Johannesburg, South Africa}{1997-1998}{Systems Administrator / Field Engineer}
 \begin{achievements}
 \item Meeting Coordinator for DC-SAGE (2009-present) and DevOpsDC.
 \item System Administrators Guild (SAGE), USENIX, League of Professional System Administrators (LOPSA) 
-\item Recent Professional Meetings: Surge Web Scaling Conference, 2010; Usenix LISA Conference, 2009; O'Reilly OsCon 2008.
+\item Recent Professional Meetings: Monitorama 2013, Surge Web Scaling Conference, 2010; Usenix LISA Conference, 2013, 2009; O'Reilly OsCon 2008.
 \end{achievements}
 
 
@@ -193,159 +203,127 @@ Johannesburg, South Africa}{1997-1998}{Systems Administrator / Field Engineer}
 
 \skillset{Operating Systems and Platforms: }
 
-\skill{Linux 2.4/2.6 (RHEL 4, 5, 6; Debian; SUSE)}{Expert-Advanced (10 years)}
-
-\skill{Sun Solaris (1.x - 2.9)}{Advanced (10 years)}
-
-\skill{MacOSX}{Advanced (5 years)}
-
-\skill{Windows 95-XP/2003}{Intermediate (10 years)}
-
+\skill{Linux 2.4/2.6 (Ubuntu; RHEL 4, 5, 6; Debian; SUSE)}{Expert-Advanced (10+ years)}
+\skill{Amazon Web Services (EC2, S3, VPC, Route53, RDS, IAM), RightScale}{Advanced (3+ years)}
+\skill{MacOSX}{Advanced (10+ years)}
+\skill{Windows 95-XP/2003/7/8}{Intermediate (10 years)}
 \skill{F5 BigIP LTM/GTM}{Advanced (2 years)}
-
 \skill{OpenBSD/FreeBSD}{Beginner (1 year)}
 
-\skill{VmWare (Server and Workstation)}{Intermediate (6 years)}
+% \skill{Sun Solaris (1.x - 2.9)}{Advanced (10+ years)}
+% \skill{VmWare (Server and Workstation)}{Intermediate (6 years)}
+% \skill{Xen, EC2}{Beginner (1 year)}
 
-\skill{Xen, EC2}{Beginner (1 year)}
 
-
-
-\skillset{Programming and Scripting Languages: }
+\skillset{Programming, Tools and Configuration Management: }
 
 \skill{Unix command line}{Expert (15 years)}
-
+\skill{Chef}{Advanced (2 years)}
+\skill{Puppet}{Advanced (2 years)}
+\skill{Cfengine}{Beginner (2 years)}
 \skill{Shell script (Bourne shell, csh, bash)}{Expert (10+ years)}
-
 \skill{Perl}{Advanced (10 years)}
-
-\skill{Ruby}{Intermediate (3 years)}
-
+\skill{Ruby}{Advanced (7 years)}
+\skill{Python}{Intermediate (5 years)}
 \skill{m4, python, C, Java, tcl/tk}{Intermediate (approx. 2 years each)}
+\skill{Git, Subversion, CVS}{Advanced (10+ years)}
+\skill{Make, Ant, Maven}{Advanced (8 years)}
+\skill{Kickstart, rpmbuild}{Intermediate (2 years each)}
 
 
+\skillset{Applications, Services and Databases: }
 
-\skillset{Infrastructure: }
-
+\skill{MongoDB, MySQL, PostgreSQL}{Intermediate (2 to 4 years)}
+\skill{RabbitMQ,  Redis}{Intermediate (2 years)}
+\skill{Jenkins}{Intermediate (2 years)}
 \skill{DNS, DHCP, NIS, NFS, Samba/CIFS/SMB}{Advanced (10 years each)}
-
 \skill{OpenLDAP}{Advanced (4 years)}
-
 \skill{NetSNMP}{Intermediate (2 years)}
-
 \skill{Kerberos, Active Directory}{Intermediate (4 years)}
-
-\skill{RAID and LVM}{Intermediate (4 years)}
-
-\skill{Relational Databases: MySQL, PostgreSQL}{Intermediate (4 years, 2 years)}
-
-\skill{DRBD, Heartbeat, High-availability}{Intermediate (2 years)}
-
+\skill{RAID, LVM, LUKS encryption}{Intermediate (4 years)}
+\skill{Ha-Proxy, DRBD, Heartbeat, High-availability}{Intermediate (2 years)}
 \skill{Amanda, Tape Backup}{Advanced (5+ years)}
-
 \skill{LPR/LPD, LPRng, CUPS}{Advanced (5+ years each)}
-
 \skill{VOIP: Asterisk, IAX, SIP}{Intermediate (1 year)}
-
-
-
-\skillset{Web Servers, Application Servers, and Web Operations}
-
+\skill{Nginx}{Advanced beginner (2 years)}
 \skill{Apache Web Server (1.3.x, 2.0.X, 2.2.X)}{Expert (10+ years)}
-
-\skill{mod\_rewrite, mod\_ssl, mod\_fastcgi}{Expert (5+ years)}
-
-\skill{JBoss 4.x}{Intermediate (3 years)}
-
-\skill{Apache Tomcat 4.x/5.x}{Advanced (4 years)}
-
-\skill{JSP, Servlets, AJP}{Expert (5 years)}
-
-\skill{Zope/Plone}{Intermediate (3 years)}
-
-\skill{Limelight Deliver, Akamai EdgeSuite}{Intermediate (1 year)}
-
-\skill{Amazon Web Services (S3, EC2)}{Beginner (1 year)}
-
+\skill{CDNs: AWS CloudFront, Limelight Deliver, Akamai EdgeSuite}{Intermediate (1 year)}
 
 
 \skillset{Web and CMS Applications}
 
+\skill{Apache Tomcat, JBoss 4.x}{Advanced (3 to 5 years)}
 \skill{Day Communique 4.2, 5.2, 5.3}{Advanced (2 years)}
-
-\skill{PHP (Drupal, WordPress, etc.)}{Intermediate (3 years)}
-
-\skill{Ruby on Rails}{Beginner (1 year)}
-
+\skill{CMS: Drupal, WordPress, Zope/Plone)}{Intermediate (3 years)}
+\skill{Ruby on Rails}{Intermediate (2 years)}
 \skill{RT3 Trouble Ticket Systems, Mason}{Advanced (4 years)}
-
-\skill{Jira Issue Tracking System}{Advanced (5 years)}
-
+\skill{Jira Issue Tracking System}{Advanced (7 years)}
 
 
-\skillset{Change Management and Configuration Management: }
-
-\skill{Subversion, git, CVS}{Advanced (8 years)}
-
-\skill{Make, Ant, Maven}{Advanced (8 years)}
-
-\skill{CfEngine, Puppet, Chef}{Intermediate (3 years, 2 years, 1 year)}
-
-\skill{Kickstart, rpmbuild}{Intermediate (2 years each)}
-
-
+%\skillset{Change Management and Configuration Management: }
 
 \skillset{Monitoring and Logging: }
 
-\skill{Nagios/NetSaint}{Expert (6 years)}
-
+\skill{Sensu}{Advanced (2 years)}
+\skill{Logstash, Elasticsearch, Kibana}{Intermediate (2 years)}
+\skill{Graphite, Carbon, CollectD, StatsD}{Intermediate (2 years)}
+\skill{Nagios}{Expert (6 years)}
 \skill{Gomez}{Intermediate (1 year)}
-
 \skill{Splunk}{Intermediate (2 years)}
-
-\skill{New Relic}{Beginner ( \textless 1 year)}
-
+\skill{APMs: New Relic, AppDynamics}{Beginner ( \textless 1 year)}
 \skill{Jopr/Hyperic}{Beginner (1 year)}
-
 \skill{Mysql Enterprise Monitor}{Intermediate (2 years)}
-
 \skill{Spread/SpreadLog}{Advanced (4 years)}
-
-\skill{Syslog, Syslog-NG}{Intermediate (10 years, 2 years)}
-
-
+\skill{Syslog, Syslog-NG, rsyslog}{Intermediate (10 years, 2 years)}
 
 
 \skillset{Mail Services:}
 
 \skill{SMTP: Sendmail, Exim, Postfix}{Intermediate (10 years, 2 years)}
-
 \skill{Listserves: Majordomo, Mailman}{Intermediate (2+ years each)}
-
 \skill{IMAP/POP: UW-IMAP, Dovecot, Courier}{Intermediate (2+ years each)}
-
 \skill{SpamAssassin}{Beginner (1 year)}
 
 
 \skillset{Security and Security Tools}
 
 \skill{SSH, OpenSSL}{Expert (7 years)}
-
 \skill{Tcpdump, NMap, Ethereal/Wireshark}{Advanced (5 years)}
-
 \skill{PGP/GnuPGP}{Intermediate (3 years)}
-
 \skill{Nessus}{Intermediate (3 years)}
-
 \skill{iptables, ipfilter, pf}{Intermediate (4 years)}
-
 \skill{Tripwire, snort}{Intermediate (2 years)}
-
 \skill{Computer forensics, evidence mgmt}{Intermediate (2 years)}
-
 \skill{IPSec, VPN management}{Beginner (1 year)}
-
 \skill{Apache mod\_security (web app firewall)}{Beginner ( \textless 1 year)}
 
+System Administrator and Web Engineer with a focus on bringing rigor and security to the use of open source software. I would like to continue building web infrastructure, from inception to production, in conjunction with development teams and stakeholders.
+
+Operations team lead in agile (Kanban/Scrum) development environments.
+
+Specialties: cloud computing, web engineering, system administration, development support, change and configuration management, monitoring and alerting, capacity planning, revision control systems, IT security, policy and planning.
+
+
+Configuration management and operation of a HIPAA-compliant social network platform: Zensey. Operated multiple development, test, and partner-integration environments in AWS EC2 configured with Chef to run identically in each environment. Designed and deployed core infrastructure to support application deployment and monitoring across the hundreds of EC2 nodes.
+
+Tools included: Puppet, Chef, MongoDB, RabbitMQ, Redis, Sensu, Graphite, Logstash, Elasticsearch, Jenkins, packaging (FPM, Deb), HAproxy, MySQL.
+
+Wrote or customized tools for specific needs in Ruby, Python and shell. 
+
+Mastered much of the AWS ecosystem: EC2, ELB, EBS, IAM, ASG (autoscaling), RDS, Route 53, Cloudwatch, and so on.
+
+Engaged in community-building and outreach by co-organizing DevOpsDC Meetups.
+
+December 2008 – February 2012 (3 years 3 months)
+
+Deployed open-source Nagios monitoring as alternative to commercial monitoring service, saving client \$100k per year.
+
+Implemented open-source directory services(OpenLDAP) and configuration management (Puppet), doubling our ability to manage change with less downtime.
+
+Automated application deployments, reducing errors to near zero, and reducing deployment time by 75\%
+
+Saved client \$400k by introducing options to a commercial real-user monitoring system to produce the required business intelligence
+
+Reduced time to identify application issues through implementation of NewRelic, allowing developers to isolate issues in minutes instead of hours
 
 \end{document}
