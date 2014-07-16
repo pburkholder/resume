@@ -8,3 +8,6 @@ preview: pdf
 	open $(NAME).pdf
 
 include $(LATEX_GMK)
+
+rtf: pdf
+	latex2rtf $(NAME).tex
