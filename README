@@ -5,3 +5,17 @@ We recommend using a MacTeX distribution: http://www.tug.org/mactex/
 
 See also my cookbook, `airbook-cookbook`
 
+
+## 2016 notes:
+
+Install basicTex from https://tug.org/mactex/morepackages.html
+
+Set path and install LaTex make and Ghostscript:
+
+    export PATH=$PATH:/usr/local/texlive/2015basic/bin/x86_64-darwin
+    brew install homebrew/tex/latex-mk
+    brew install ghostscript
+
+Then:
+
+    make

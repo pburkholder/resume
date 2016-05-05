@@ -6,6 +6,7 @@
 \textheight=9in
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{verbatim}
 \pagestyle{empty}
 %\raggedbottom
 \raggedright
@@ -20,7 +21,7 @@
 \newcommand{\lineunder}{\vspace*{-8pt} \\ \hspace*{-18pt} \hrulefill \\}
 \newcommand{\header}[1]{{\hspace*{-15pt}\vspace*{6pt} \textsc{#1}} \vspace*{-6pt} \lineunder}
 \newcommand{\centeredheader}[1]{
-  \vspace*{6pt} 
+  \vspace*{6pt}
   \begin{center}
     \textsc{#1}
     \lineunder
@@ -33,7 +34,7 @@
     \vspace*{-8pt}
     \begin{center}
         {\LARGE \scshape {#1}}\\
-        #2 \lineunder 
+        #2 \lineunder
         #3
     \end{center}
     \vspace*{-8pt}
@@ -41,12 +42,12 @@
 %\newenvironment{achievements}{\begin{list}{$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}\end{list}}
 \newenvironment{achievements}{\begin{list}{\topsep 0pt \itemsep -2pt}} {\vspace*{4pt}\end{list}}
 \newcommand{\schoolwithcourses}[4]{
- \textbf{#1} #2 $\bullet$ #3\\ 
+ \textbf{#1} #2 $\bullet$ #3\\
 #4 $\bullet$  Selected Coursework:\\
 \vspace*{5pt}
 }
 \newcommand{\school}[3]{
- \textbf{#1} #2 $\bullet$ #3\\ 
+ \textbf{#1} #2 $\bullet$ #3\\
 }
 % END RESUME DEFINITIONS
 
@@ -57,23 +58,33 @@
 \vspace*{-44pt}
 
 \contact{Peter D. Burkholder}
-{7101 Bridle Path Lane, Hyattsville, Maryland 20782}
-{+1-240-696-2545 $\bullet$ pburkholder@pobox.com  $\bullet$ http://www.pburkholder.com/ \linebreak Twitter: @pburkholder $\bullet$ LinkedIn: http://linkedin.com/in/pburkholder }
+  {7101 Bridle Path Lane, Hyattsville, Maryland 20782}
+  {+1-301-204-5767 $\bullet$ pburkholder@pobox.com  $\bullet$ http://www.pburkholder.com/ \linebreak Twitter: @pburkholder $\bullet$ LinkedIn: http://linkedin.com/in/pburkholder }
 
-\centeredheader{DEVOPS $\bullet$ WEB ENGINEER $\bullet$ CONFIGURATION MANAGEMENT $\bullet$ AWS}
-Operations leadership for agile development (Kanban/Scrum) from product planning to continuous release. Expertise includes AWS cloud computing, capacity planning, configuration management, monitoring, version control, continuous delivery, scripted deployments, security and incident management. 
+\centeredheader{DEVOPS $\bullet$ WEB ENGINEER $\bullet$ INFRASTRUCTURE AUTOMATION $\bullet$ AWS}
+  DevOps leadership for agile/lean organizations. Expertise includes continuous delivery, security, cloud computing, capacity planning, configuration management, monitoring, and incident management.
 
 %\header{Achievements}
 \smallskip
 \vspace*{16pt}
 
-\employer{Rally Health (previously known as Audax Health), Washington, DC}{2012-present}{Cloud/Devops Engineer}
+
+\employer{Chef Software, Seattle, WA (remote employee)}{2014-2016}{Customer Engineer}
 \begin{achievements}
-  \item Configuration management and operation of \emph{Zensey}, a HIPAA-compliant on-line health and wellness platform
+  \item Consulted with long-term enterprise customers, including Bloomberg, CapitalOne, Blackberry and IHG, on Chef automation adoption and continued success
+  \item Architected Chef deployments for scale, reliability and security for environments with 10,000 nodes distributed across multiple data centers.
+  \item Developed cookbook code, plugins, bug fixes and product feature enhancements on behalf of Chef customers.
+  \item Acted as liaison between customers and Chef product team to assess opportunities in new feature development
+  \item Represented Chef at DevOpsDays (DC and Chicago), SurgeCon, LISA, local meetups and Chef events
+\end{achievements}
+
+\employer{Rally Health, Washington, DC}{2012-2014}{Cloud/Devops Engineer}
+\begin{achievements}
+  \item Configuration management and operation of \emph{RallyHealth}, a HIPAA-compliant on-line health and wellness platform
   \item Operated multiple development, test, and partner-integration environments in AWS EC2 configured, with Chef, to run identically in each environment. Designed and deployed core infrastructure to support application deployment and monitoring across hundreds of EC2 nodes.
   \item Tools included: Puppet, Chef, MongoDB, RabbitMQ, Redis, Sensu, Graphite, Logstash, Elasticsearch, Jenkins, packaging (FPM, Deb), HAproxy, MySQL.
   \item Mastered much of the AWS ecosystem: EC2, ELB, EBS, IAM, ASG (autoscaling), RDS, Route 53, Cloudwatch, and VPC.
-  \item Designed and wrote Ruby-based zero-downtime release system to shift load-balanced (HAProxy and AWS ELB) traffic between versions of application code. Wrote or customized tools for specific needs in Ruby, Python and shell. 
+  \item Designed and wrote Ruby-based zero-downtime release system to shift load-balanced (HAProxy and AWS ELB) traffic between versions of application code. Wrote or customized tools for specific needs in Ruby, Python and shell.
   \item Monitored node and application health with \emph{Sensu}. Replaced commercial web-application monitors, Pingdom and NeuStar Nimsoft) with open-source CasperJS and Sensu integration, delivering 10x the monitoring at 1/10th the cost.
   \item Deployed Graphite/StatsD/CollectD and Logstash/Elasticsearch/Kibana for aggregation and search across metrics and 12Gb/day of application logs.
   \item Supported Jenkins continuous integration, test and release to development and staging environments.
@@ -85,19 +96,19 @@ Operations leadership for agile development (Kanban/Scrum) from product planning
 
 \employer{AARP Digital Strategy and Operations, Washington, DC}{2008-2012}{Senior Web Engineer/Team Lead}
 \begin{achievements}
-  \item Operated over 50 web, application, database and development machines (RHEL4/5) to serve 3 million pages/day for AARP.org, the United State's largest membership organization.  
+  \item Operated over 50 web, application, database and development machines (RHEL4/5) to serve 3 million pages/day for AARP.org, the United State's largest membership organization.
   \item Led team of four system administrators in Scrum-style approach to work management.
   \item Deployed open-source Nagios monitoring as alternative to commercial monitoring service, saving client \$100k per year.
   \item Automated application release, reducing errors to near zero, and reducing deployment time by 75\%
   \item Saved client \$400k by introducing options to a commercial real-user monitoring system to produce the required business intelligence
   \item Reduced time to identify application issues through implementation of NewRelic, allowing developers to isolate issues in minutes instead of hours
-  \item Assured MySQL availability with HA/DRBD pairs on each datacenter master, and master-master replication between two datacenters.  
-  \item Deployed Puppet for configuration management. Introduced AWS/EC2 to test new system builds. 
-  \item Built business continuity environment at remote data center. 
+  \item Assured MySQL availability with HA/DRBD pairs on each datacenter master, and master-master replication between two datacenters.
+  \item Deployed Puppet for configuration management. Introduced AWS/EC2 to test new system builds.
+  \item Built business continuity environment at remote data center.
 %  \item Implemented open-source directory services(OpenLDAP) and configuration management (Puppet), doubling our ability to manage change with less downtime.
-%  \item Managed full stack ranging from OS install to application configuration to deployment coordination to load-balancing and CDN management. 
-%  \item Supported thirty-six staff in their development pipeline for JBossAS and Day Communiqu\'{e} applications using Subversion, Confluence, Jira, CruiseControl, and build tools including Maven and Ant. 
-%  \item Built a monitoring system with Nagios/pnp4Nagios (750 services), Mysql Monitor, New Relic and Gomez.  Wrote web QA tools with Watir and Curl. 
+%  \item Managed full stack ranging from OS install to application configuration to deployment coordination to load-balancing and CDN management.
+%  \item Supported thirty-six staff in their development pipeline for JBossAS and Day Communiqu\'{e} applications using Subversion, Confluence, Jira, CruiseControl, and build tools including Maven and Ant.
+%  \item Built a monitoring system with Nagios/pnp4Nagios (750 services), Mysql Monitor, New Relic and Gomez.  Wrote web QA tools with Watir and Curl.
 
 
 \end{achievements}
@@ -105,8 +116,8 @@ Operations leadership for agile development (Kanban/Scrum) from product planning
 
 \employer{National Center for Biotechnology Information, National Institutes of Health, Bethesda, MD}{2007-2008}{Applications Administrator}
 \begin{achievements}
-   \item Co-managed over 200 web servers for the U.S. government's busiest web site (http://ncbi.nlm.nih.gov, PubMed, MedLine) using CfEngine and Subversion.  
-   \item Built, configured and tuned Apache servers, deployed locally-developed applications, operated third-party applications such as Mailman, Jira, MySQL, ProFTPd and several wiki platforms.  
+   \item Co-managed over 200 web servers for the U.S. government's busiest web site (http://ncbi.nlm.nih.gov, PubMed, MedLine) using CfEngine and Subversion.
+   \item Built, configured and tuned Apache servers, deployed locally-developed applications, operated third-party applications such as Mailman, Jira, MySQL, ProFTPd and several wiki platforms.
    \item Worked with developers to resolve application issues.  Wrote custom extensions for Jira in JRuby and Ruby.  Customized RT3 ticket system in Perl/Catalyst.
 \end{achievements}
 
@@ -118,23 +129,23 @@ Operations leadership for agile development (Kanban/Scrum) from product planning
 %\pagebreak
 \employer{EchoDitto, LLC, Washington, DC}{2007}{Director Of System And Network Operations}
 \begin{achievements}
-  \item Operated LAMP-based web server farm and Akamai content delivery network for two dozen clients of Internet strategy firm.  
-  \item Launched up to four new Drupal-based client sites per month, and met peak demand of 910,000 visitors/day.  
-  \item Managed internal systems for email (Exim), VOIP (Asterisk), and Mac OS X systems. 
+  \item Operated LAMP-based web server farm and Akamai content delivery network for two dozen clients of Internet strategy firm.
+  \item Launched up to four new Drupal-based client sites per month, and met peak demand of 910,000 visitors/day.
+  \item Managed internal systems for email (Exim), VOIP (Asterisk), and Mac OS X systems.
 \end{achievements}
- 
+
 \employer{University Corporation for Atmospheric Research (UCAR/NCAR), DLESE Program Center, Boulder, CO}{2002-2006}{Lead System Administrator}
 \begin{achievements}
-    \item Supervised team of three syadmins to operate the technical infrastructure for a J2EE-based digital library.  
-    \item Developed infrastructure for Red Hat Linux (RHEL) servers with Kickstart deployments, CfEngine+Subversion configuration management, NIS+Kerberos directory service and authentication, automated backups, monitoring and alerting. Automated deployment of Java web applications (ant). Supervised administration of 80 desktop and portable systems.  
-    \item Provided outstanding customer support in Windows, Linux (Red Hat), Unix (Solaris) and MacOSX environments. Won bids to assume operations for two other programs within our corporation. Expanded team from one to three full-time system administrators. 
+    \item Supervised team of three syadmins to operate the technical infrastructure for a J2EE-based digital library.
+    \item Developed infrastructure for Red Hat Linux (RHEL) servers with Kickstart deployments, CfEngine+Subversion configuration management, NIS+Kerberos directory service and authentication, automated backups, monitoring and alerting. Automated deployment of Java web applications (ant). Supervised administration of 80 desktop and portable systems.
+    \item Provided outstanding customer support in Windows, Linux (Red Hat), Unix (Solaris) and MacOSX environments. Won bids to assume operations for two other programs within our corporation. Expanded team from one to three full-time system administrators.
 \end{achievements}
 
 
 \employer{Applied Physics Lab, University of Washington, Seattle, WA}{2000-2001}{Interim Computing Services Manager / IT Security Manager}
 \begin{achievements}
     \item Managed a team of four full-time and part-time staff to provide computing services for 350 scientists and engineers.
-    \item Set strategy in consultation with Lab's computing advisory group, managed budget with Lab administration, and hired new director upon my relocation to Colorado. 
+    \item Set strategy in consultation with Lab's computing advisory group, managed budget with Lab administration, and hired new director upon my relocation to Colorado.
     \item Ran network services (DNS, DHCP, mail, etc.) for 500+ nodes. Configured, installed, and managed core servers: (Solaris 2.6-2.8), Linux (Red Hat and Debian), Windows 2000 and MacOS.  Expanded network infrastructure from three Class C subnets to five. Configured and upgraded Sendmail, BIND, DHCP, FTP and printing services.
     \item As the lab's first manager of IT security, implemented a program of vulnerability scanning (Nessus) and patching, system administrator education, automated hardening (Bastille), and a formalized incident response and forensics program (TCT).
 \end{achievements}
@@ -142,32 +153,34 @@ Operations leadership for agile development (Kanban/Scrum) from product planning
 
 %%  \employer{Geophysics Program, University of Washington, Seattle, WA}{1998-2000}{Research Scientist}
 %%  \begin{achievements}
-%%      \item Maintained C and Perl code for near real-time web access to seismic data from the IRIS data center.  
+%%      \item Maintained C and Perl code for near real-time web access to seismic data from the IRIS data center.
 %%       Managed Y2K code clean up.  Launched initiative to provide Debian workstations to graduate students. Supported field work for Pacific Northwest Seismic Network.
 %%  \end{achievements}
-%%  
+%%
 %%  \employer{Department Of Geophysics, University of the Witwatersrand,
 %%  Johannesburg, South Africa}{1997-1998}{Systems Administrator / Field Engineer}
 %%  \begin{achievements}
-%%      \item Built geophysical data analysis lab from Solaris workstation parts discarded by gold and diamond mining companies.  
+%%      \item Built geophysical data analysis lab from Solaris workstation parts discarded by gold and diamond mining companies.
 %%  Instructed students and faculty on Unix data analysis tools.  Led field work for joint US/South Africa field seismology program.
 %%  \end{achievements}
 
 \header{Selected Publications and Presentations}
 \begin{achievements}
+\item ``Usenix LISA 2015 Tutorial: Automation Bootcamp," (co-instructor) Led units of one-day workshop on Chef, Docker and Sensu. November 2015.
+\item ``Diversifying DevOps Workshop," One-day workshop on infrastructure automation, testing and continuous delivery with Chef, AWS and Jenkins. May 2015.
 \item ``Sensu: A Cloud-ready Monitoring Framework," DevOpsDC, May 2012.
 \item ``Continuous Delivery: A Roadmap for AARP," AARP Lunch and Learn, March 2011.
 % \item ``DevOps at Flickr, or, 10+ Deploys a Day," AARP Lunch and Learn, October 2010.
 \item ``Introduction to EC2 and Cloud Computing," Inaugural Presentation NCBI Monthly Lunch Talks, May 2008.
 \item ``Topics in Mac OS X Security," Four-hour course for UCAR/NCAR computing personnel, December 2007.
-\item ``Topics in Cross-Platform Computing Security," Four-hour course for UCAR/NCAR sysadmins, December 2007.  
+\item ``Topics in Cross-Platform Computing Security," Four-hour course for UCAR/NCAR sysadmins, December 2007.
 \item ``Topics in Unix/Linux Security," Four-hour course for UCAR/NCAR computing staff, November 2007.
 \item ``Essentials of Windows Incident Response," 30-minute segment of Windows security course, November 2007.
 \item ``UCAR Security Essentials,"  Four-hour course for UCAR/NCAR sysadmins, September 2007.
 \item ``SVK: A compelling complement to Subversion," Employer Job Talk, January 2007.
 %\item ``SSL Man-in-the-Middle Attacks," UCAR Security Breakfast, September 2006.
-%\item ``Under the Hood with Plone," UCAR, April 2006.
-\item ``The RT3 Trouble Ticket System," UCAR, December 2004.  
+\item ``Under the Hood with Plone," UCAR, April 2006
+\item ``The RT3 Trouble Ticket System," UCAR, December 2004.
 \item ``Shibboleth: Privacy-Preserving Authentication for the Web," UCAR Web Advisory Group, October 2004
 %\item ``DLESE: A Library to Support Geoscience Education Reform," Geoscience Africa, Johannesburg, South Africa, July 2004
 \item ``Subversion: An compelling alternative to CVS," Colorado SAGE Meeting, February 2004
@@ -181,6 +194,7 @@ Operations leadership for agile development (Kanban/Scrum) from product planning
 
 \header{Certification / Training}
 \begin{achievements}
+\item Data Science/R Programming (in progress) via Coursera/Johns Hopkins, 2016
 \item MongoDB for Administrators: 10gen M102, 2013
 \item Red Hat Certified System Administrator (RHCSA RHEL 6), 2011, ID: 111-114-716
 \item Red Hat Certified Engineer (RHCE RHEL 6), 2011, ID: 111-114-716
@@ -200,14 +214,19 @@ Operations leadership for agile development (Kanban/Scrum) from product planning
 \header{Professional Affiliations and Activities}
 \begin{achievements}
 \item Meeting Coordinator for DC-SAGE (2009-present) and DevOpsDC.
-\item System Administrators Guild (SAGE), USENIX, League of Professional System Administrators (LOPSA) 
-\item Recent Professional Meetings: Monitorama 2013, Surge Web Scaling Conference, 2010; Usenix LISA Conference, 2013, 2009; O'Reilly OsCon 2008.
+\item System Administrators Guild (SAGE), USENIX, League of Professional System Administrators (LOPSA)
+% \item Recent Professional Meetings: Monitorama 2013, Surge Web Scaling Conference, 2010; Usenix LISA Conference, 2013, 2009; O'Reilly OsCon 2008.
 \end{achievements}
 
 
 % trouble rendering < symbol.  See
 % http://tex.stackexchange.com/questions/2369/less-than-symbol-appears-as-upside-down
 % \pagebreak
+
+
+%%%%%%%%%%%%%%% SKILLS commented away with \begin{comment}
+\begin{comment}
+
 \header{Skills}
 
 \skillset{Operating Systems and Platforms: }
@@ -305,5 +324,6 @@ Operations leadership for agile development (Kanban/Scrum) from product planning
 \skill{Computer forensics, evidence mgmt}{Intermediate (2 years)}
 \skill{IPSec, VPN management}{Beginner (1 year)}
 \skill{Apache mod\_security (web app firewall)}{Beginner ( \textless 1 year)}
+\end{comment}
 
 \end{document}
