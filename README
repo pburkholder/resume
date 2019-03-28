@@ -2,10 +2,10 @@ Peter Burkholder's resumé
 
 Resumé compiled from LaTeX: +12 points: ![How a programmer reads a resume](http://stevehanov.ca/blog/resume_comic.png)
 
-Mac install and build, with MacTeX (3.2 Gb, ugh). This may also work with basicTex. Or, next time, try a 
-Dockerized LaTeX as suggested at https://github.com/Arxisos/LaTex-Workshop-Docker
+Mac install and build, with BasicTex
 
-    brew cask install mactex
+
+    brew cask install basictex
     brew install ghostscript
     export PATH=$PATH:/Library/TeX/texbin
     sudo tlmgr update --self
@@ -14,3 +14,10 @@ Dockerized LaTeX as suggested at https://github.com/Arxisos/LaTex-Workshop-Docke
 Then:
 
     make
+
+Caveats:
+
+There may be features missing using
+[BasicTex](https://tug.org/mactex/morepackages.html), but, 
+MacTeX (3.2 Gb, ugh). May be worth trying  
+Dockerized LaTeX as suggested at https://github.com/Arxisos/LaTex-Workshop-Docker
