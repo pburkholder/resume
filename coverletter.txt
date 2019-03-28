@@ -1,0 +1,56 @@
+
+
+I'm seeking a new opportunity for my skills in DevOps engineering, and your current position, TKTK, matches well with my experience and interests. My web operations experience spans work in places as varied as an aggressively-growing startup (Audax), a large-scale government site (NIH/NCBI), and the nation's largest membership organization (AARP). In those positions I have brought innovation and experience to bear on leading technical teams, scaling capacity, minimizing downtime, and reducing release-cycle time.
+
+My attached resume summarizes my technical experience. Two aspects of my work I'd like to highlight here are my commitment to data-driven decision-making and servant leadership.
+
+Decision-making: I came to this field through my work as a research and field geophysicist. What I learned from distilling large datasets, or improvising board-level repairs in Antarctica or Siberia, have proved key to my success in my current profession. Web engineering and distributed systems have grown too complex for making gut decisions, so one must seek out enough information, and develop testable hypotheses, to arrive at viable solutions. At the same time, that one needs to be flexible and creative enough to provide solutions quickly, without blocking the flow of work or leaving outages unresolved. I have made my mistakes along that way, but that is the essence of experience.
+
+Servant leadership: I take most satisfaction from my work when I'm able to help others succeed at their work. When working with smart, experienced colleagues, this can take the form of minimizing impediments to work, enhancing communication within and between teams, and helping to prioritize and prune work. For junior engineers, I have a history of teaching and mentoring that enables them to grow into their jobs and enhance their productivity.
+
+I can bring all this to bear on facing new challenges at TK2. Thanks for your consideration.
+
+Sincerely,
+
+Peter Burkholder
+
+=================
+
+EARLY ADOPTER: Puppet, Chef, Sensu, Subversion....
+
+
+
+LEADERSHIP BLURB.
+
+Having been with the same company for over two-and-a-half years I'm seeking a new opportunity for my skills in DevOps leadership, and 
+
+data-driven
+servant-leadership
+
+AARP: I served as lead on a team of five sysadmins and collaborated closely with my manager, Chris McDaniel, on planning and strategic
+decision-making. We adapted Scrum for our team and I acted as Scrummaster to Chris McDaniel as the product owner. On a
+day-to-day basis I mentored the junior team members, settled questions on which technologial approaches to use, and served as
+liaison to the application development teams.
+
+My major initiatives were to jettison enterprise monitoring for Nagios, automate the manual release process (largely with Make), introduce
+configuration management, introduce DevOps across the Digital Strategy group, and establish a BCP/DR application development environment
+in the AARP Los Angeles data center.
+
+Chris McDaniel (cmcdaniel@gmail.com) would be able to answer any questions on my AARP service.
+
+
+UCAR/NCAR (National Center for Atmospheric Research): I started in the digital library group as the sole FTE with one part-time employee for desktop support.
+To expand my team team, I reached out to other small grant-funded groups, who relied on NCAR's centralized support services at hourly rates, to join forces and hire
+additional FTEs to provide customized support for their initiatives and staff. By the time I relocated to DC, I had hired two additional FTEs who reported to me, and was supporting
+three programs: DLESE, NSDL and Coment. I kept computing support costs flat for each group while providing a much higher level of service satisfaction.
+
+I also served on the UCAR/NCAR security committee and launched the first institutional review of web security: initiating an advisory board of sysadmins and web developers,
+reviewing current practice, and establishing the first standards for web security (largely guided by OWASP). I returned to NCAR briefly in 2007 to lead
+a series of training programs for the 120 system administrator and web developers on staff at NCAR. 
+
+Lynda McGinley at NCAR (mcginley@ucar.edu) would be availabe to answer any questions about the leading role I took there in ensuring ongoing web security.
+
+
+University of Washington Applied Physics Lab: I initially came to APL to direct their computer security program, then stepped into the computing services manager role following staff transitions. In the year that I held that role I managed an annual budget of $300,000, consulted monthly with an advisory group of lead scientists and engineers, handled all personnel matters for 2 FTEs and a team of 5 part-time, and directed major initiatives for network expansion and service upgrades.
+
+My colleauge and current APL computing services director, Adam Morehead (am@apl.washington.edu), would be available to discuss my role there.
