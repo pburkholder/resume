@@ -1,12 +1,15 @@
 
-## 2016 notes for OsX:
+## 2019 notes for OsX:
 
-Install basicTex from https://tug.org/mactex/morepackages.html
+Install basicTex (from https://tug.org/mactex/morepackages.html) or with Brew:
+
+    brew cask install basictex
 
 Set path and install LaTex make and Ghostscript:
 
-    export PATH=$PATH:/usr/local/texlive/2015basic/bin/x86_64-darwin
-    brew install homebrew/tex/latex-mk
+    export PATH=$PATH:/usr/local/texlive/2019basic/bin/x86_64-darwin
+    sudo tlmgr update --self
+    sudo tlmgr install latexmk
     brew install ghostscript
 
 Then:
