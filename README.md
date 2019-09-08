@@ -1,7 +1,9 @@
 
 ## 2019 notes for OsX:
 
-Install basicTex from https://tug.org/mactex/morepackages.html
+Install basicTex (from https://tug.org/mactex/morepackages.html) or with Brew:
+
+    brew cask install basictex
 
 Set path and install LaTex make and Ghostscript:
 
